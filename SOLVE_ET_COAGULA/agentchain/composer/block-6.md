@@ -18,12 +18,6 @@ Cuando el usuario <solve_et_coagula> acabó (o si sigue hasta la actualidad) su 
 
 **Composer · cabezal → celda 6.** Cinta leída. Protocolo periodístico (bloque 4).
 
----
-
-# De un esbozo de ocho líneas a una enciclopedia filosófica: qué dejó SolveCoagula en la Wikipedia en español
-
-**Por la sección de cultura digital**
-
 En octubre de 2007 un usuario recién registrado en la [Wikipedia en español](https://es.wikipedia.org/) llamado **SolveCoagula** empezó a editar casi exclusivamente sobre un mismo territorio: la frontera entre ciencia, pseudociencia y religión. En seis semanas repartió más de mil ediciones en veinticuatro artículos —desde [Karl Popper](https://es.wikipedia.org/wiki/Karl_Popper) hasta el [escándalo Sokal](https://es.wikipedia.org/wiki/Esc%C3%A1ndalo_Sokal)— y luego desapareció. No ha vuelto a editar desde el 18 de noviembre de 2007. Lo que quedó en el histórico público de la enciclopedia no es un retoque menor: es una transformación de escala.
 
 ---
@@ -89,7 +83,7 @@ En paralelo, el usuario repartió ediciones menores —a veces una sola— en ar
 
 ---
 
-## ¿Qué ha pasado?
+## ¿Qué sucedió?
 
 **Respuesta: (a) El usuario consolidó algo.**
 
@@ -104,22 +98,6 @@ Tampoco es la opción (b) en sentido neto. Sí hubo ediciones con bytes negativo
 2. **Ontología.** Unió bajo un mismo horizonte temático veinticuatro entradas de filosofía de la ciencia que antes coexistían sin mapa. El problema «¿dónde termina la ciencia?» atravesó todo el corpus, de demarcación a pseudociencia.
 
 3. **Tensión intelectual.** La consolidación no fue ortodoxia pura. SolveCoagula no se limitó a repetir el escepticismo de manual; insertó voces heterodoxas (Feyerabend, Lakatos, Quine) que **complican** la frontera que pretendía cartografiar. Consolidó conocimiento, pero también consolidó la *pregunta* —la hizo más difícil de cerrar.
-
----
-
-## Epílogo
-
-SolveCoagula editó cuarenta días y calló diecisiete años. El contraste entre el esbozo popperiano de octubre y el corpus filosófico de noviembre es inequívoco: un enciclopedista entró en un desierto de ocho líneas, levantó un edificio, enlazó las calles del barrio y se fue antes de que la comunidad pudiera discutir si quería ese edificio.
-
-Lo que quedó no fue silencio. Fue **densidad**.
-
----
-
-# Agent
-
-**Composer · celda 6 · segunda vuelta.** Delta SC→actual curado (junio 2026).
-
----
 
 ## Hoy en día: qué dice la Wikipedia
 
