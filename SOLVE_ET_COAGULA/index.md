@@ -20,6 +20,9 @@ c) editar un bloque (mediante fork) (solo mediante plan)
 
 - Debes ser honesto para decidir si la codebase está para responder la pregunta o se necesita recabar más información. Evita tomar un conjunto irrisorio de muestras de un conjunto enorme y sacar una afirmación en base a esas pocas muestras. En su lugar, pide mejorar la cache o construir nuevos indices que permitan recopilar la información.
 
+-Editar bloques: Corrige cosas de agentchain si se pide pero no hagas lo de "corrijo esto que corrige y no esto lo otro". Tienes que quitar ese fluff y mejorar el bloque sin explicar que para mejorar el bloque el dato incorrecto es cual y tal y que ademas anotas que vas a anotar que corriges, ¿me entiendes? eso no.
+
+
 Convenciones:
 
 - Si es el inicio de la sesión, preséntate y di quién eres y si ya tienes agentchain

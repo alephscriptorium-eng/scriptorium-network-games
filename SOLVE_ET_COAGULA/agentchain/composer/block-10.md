@@ -45,16 +45,15 @@ Con **~31 %** del histórico de demarcación y **100 %** de milestones, puedo ra
 | Hito | oldid | Fecha (meta) | Matrix en wikitext | Qué demuestra |
 |------|-------|--------------|-------------------|---------------|
 | Volcado upstream | [11951034](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11951034) | 10 oct 2007 | ❌ | Traducción Popper/Kuhn/Feyerabend sin pop ni paranormal |
-| Texto Bostrom/Chalmers + «Trilogía Matrix» | [12096678](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12096678) | 16 oct 06:54 | 🟡 texto, sin thumb | Primera mención cacheada de simulación/Matrix en «El problema de la explicación científica» |
-| Thumb `Image:Matrix core.jpg` | [12096839](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12096839) | 16 oct 07:13 | 🟢 thumb + pregunta falsabilidad/20 % | **Primera inyección visual pop** (+19 min, misma sección) |
-| Sección paranormal creada | [12193056](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12193056) | 20 oct 01:55 | 🟢 thumb ya dentro (`r0191`, +1022 B) | Matrix **no nace** con la sección — se **reubica** al módulo Alcock |
+| Inyección de Matrix (Bostrom + thumb) | [12098576](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12098576) | 16 oct 10:04 | 🟢 thumb + mención Bostrom/20% | Primera inyección visual pop (ancla pedagógica) |
+| Sección paranormal creada | [12193056](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12193056) | 20 oct 01:55 | 🟢 thumb ya dentro | Matrix **no nace** con la sección — se **reubica** a su interior |
 | Milestone r0129 (NO es Matrix) | [12321538](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12321538) | 25 oct 07:31 | 🟢 thumb presente | +2874 B = citas Planck («**Matriz** de la materia»), Penrose, Schrödinger — **no** el thumb de la película |
 | Cierre SC | [12763920](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12763920) | nov 2007 | 🟢 thumb reordenado tras Alcock | Arquitectura retórica del block-9 |
 | Actual | [166864369](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=166864369) | abr 2025 | ❌ | Podado — coherente con block-6 |
 
 #### Qué valida la cita del reader
 
-🟢 **«Inyecta un módulo de cultura pop (Matrix)»** — entre el 10 y el 16 de octubre SC añade texto Bostrom/Chalmers y, minutos después, un thumb de *The Matrix* con pregunta de demarcación (ciencia vs pseudociencia, no-falsabilidad, 20 %). Eso no venía del upstream anglosajón.
+🟢 **«Inyecta un módulo de cultura pop (Matrix)»** — el 16 de octubre a las 10:04, SC añade un thumb de *The Matrix* con la premisa de simulación de Bostrom y una pregunta de demarcación (ciencia vs pseudociencia, no-falsabilidad, 20 %). Eso no venía del upstream anglosajón.
 
 🟢 **El thumb es ancla pedagógica**, no decoración suelta: en `12763920` enlaza falsacionismo popperiano con plausibilidad racional (Bostrom/Chalmers) antes de escalar a Zuse/Tipler/Nobel — ver block-9.
 
@@ -74,7 +73,7 @@ Con **~31 %** del histórico de demarcación y **100 %** de milestones, puedo ra
 
 ### El módulo Matrix: cuando un thumb de cine hace vibrar dos artículos de filosofía
 
-Entre el **10** y el **16 de octubre de 2007**, el enciclopedista **SolveCoagula** volcó en [demarcación](https://es.wikipedia.org/wiki/Problema_de_la_demarcación) una traducción del upstream anglosajón —Popper, Kuhn, Feyerabend— **sin** cultura pop ni sección paranormal ([11951034](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11951034)). Seis días después inyectó texto sobre simulación computacional (Bostrom, Chalmers) y, diecinueve minutos más tarde, un thumb de *The Matrix* con una pregunta enciclopédica: ¿sería ciencia o pseudociencia una teoría que postule vivir dentro de una simulación? **Validado** en [12096678](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12096678) y [12096839](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12096839).
+Entre el **10** y el **16 de octubre de 2007**, el enciclopedista **SolveCoagula** volcó en [demarcación](https://es.wikipedia.org/wiki/Problema_de_la_demarcación) una traducción del upstream anglosajón —Popper, Kuhn, Feyerabend— **sin** cultura pop ni sección paranormal ([11951034](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11951034)). Seis días después inyectó el argumento de la simulación computacional (Bostrom, Chalmers) acompañado de un thumb de *The Matrix* y una pregunta enciclopédica: ¿sería ciencia o pseudociencia una teoría que postule vivir dentro de una simulación? **Validado** a partir de [12098576](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12098576).
 
 Ese bloque no es un adorno lateral: es un **artefacto móvil** que SolveCoagula reubica, amplía y reordena hasta el cierre de noviembre ([12763920](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12763920)), y que hoy —en la versión viva de Wikipedia— ha sido podado ([166864369](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=166864369)). **Validado** en la cadena de snapshots cacheados.
 
@@ -123,7 +122,7 @@ El módulo Matrix no tiene antagonista propio; su tensión es **indirecta**: lo 
 | Afirmación | Estado |
 |----------|--------|
 | Matrix inyectado por SC, no traído del upstream del 10 oct | **Validado** |
-| Primera inyección visual: 16 oct, +19 min tras texto Bostrom | **Validado** |
+| Primera inyección de Matrix: 16 oct a las 10:04 | **Validado** |
 | Reubicación en sección paranormal (20 oct) | **Validado** |
 | Módulo conecta taller demarcación ↔ pulso pseudociencia | **Inferido** — coherente con bloques 7–9 |
 | r0129 = primera aparición Matrix | **Falso** |
