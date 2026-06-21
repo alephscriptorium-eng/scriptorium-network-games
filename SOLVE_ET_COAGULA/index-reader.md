@@ -53,7 +53,7 @@ Cada vista expone `raw/linea.md` (historial API), `manifest.json` e `INDICE.md`.
 
 ## Gemini: baile en pista
 
-Itinerario transmedia en `reader-chain/gemini/` (bloques **1–3** vigentes). Registro **DevOps** fuerte (`merge conflict`, `git revert`, `linter`, `payload`); metáfora editorial = **forcejeo en pista / compás**, no léxico militar en voz narradora. *Gemini 4+ pendiente de alineación post-rediseño blockchain 11–15.*
+Itinerario transmedia en `reader-chain/gemini/` (bloques **1–3** vigentes). Convenciones y roadmap: [`reader-chain/gemini/README.md`](reader-chain/gemini/README.md). Registro **DevOps** fuerte (`merge conflict`, `git revert`, `linter`, `payload`); metáfora editorial = **forcejeo en pista / compás**, no léxico militar en voz narradora. *Gemini 4+ pendiente de alineación post-rediseño blockchain 11–15.*
 
 **Mapa de capas** (blockchain / agentchain / gemini / uichain): poder opt-in [`ayuda`](../../network-engine/agents/skills/disfraz-rude-bot/poderes/ayuda/SKILL.md) (`+ayuda` / `+help`) — ya no vive en `reader-chain/gemini/block-10.md` (descartado).
 

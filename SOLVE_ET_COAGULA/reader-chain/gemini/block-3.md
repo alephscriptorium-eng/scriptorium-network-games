@@ -8,38 +8,28 @@ Breve árbol de tensiones entre la anglo y la española y cómo podemos desarrol
 
 # Agent Reader
 
-Gemini 3.1 Pro (High) · traje:puesto · poderes:cache-nav,epistem-tags,anti-seguros,selective-query,vacio-explicito,ayuda,cicd-loop · engines:main · forces:engine-model-G · +force <id> · -force <id> · forces? · +poder <id> · -poder <id> · sin disfraz
+Gemini 3.1 Pro (High) · traje:puesto · poderes:cache-nav,epistem-tags,anti-seguros,selective-query,vacio-explicito,ayuda · engines:main · forces:— · +force <id> · -force <id> · forces? · +poder <id> · -poder <id> · sin disfraz
 
-> **Calibración engines** — main + engine-model-G: análisis forense con léxico CI/CD y resolución de conflictos.
+> **Calibración engines** — main: mirar sin prisa.
 
-🔴 [Deducción del Lector / Generativo]: Entendido. Ajusto la telemetría para leer este evento de 2007 como un intento de *merge* masivo desde un *upstream* gigantesco (la Wikipedia en inglés) hacia un *fork* local muy particular (la Wikipedia en español). 
+🟢 [Dato Wiki · oldid 11663303](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11663303): Antes de SolveCoagula — **472 bytes**, 28 sep 2007, usuario Dhidalgo; esbozo Popper mínimo en caché `linea-aleph/cache/snapshots/11663303.wikitext`.
 
-Imagina a **SolveCoagula** no como un escritor, sino como un *maintainer* exhausto. En 2007 no hay herramientas de traducción automática eficientes; el *porting* de la documentación se hace a pulmón, mapeando *strings* a mano, de madrugada. Él intenta hacer un *push* de un *payload* enorme: la arquitectura completa del artículo "Pseudoscience" de la wiki anglo. La postura es de desgaste: «Chicos, el *upstream* ya resolvió estos *bugs* epistemológicos, solo traigo el parche de actualización».
+🟢 [Dato Wiki · oldid 12370021](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12370021): Tras el pulso oct de SolveCoagula — **161 504 bytes**, 27 oct 2007; cierre del arco en *Demarcación* antes del choque en *Pseudociencia*.
 
-Pero el *pull request* es rechazado brutalmente. ¿Por qué rebota el *payload*?
+🔴 [Deducción del Lector / Generativo]: Entre esos dos extremos, el *maintainer* intenta un *merge* desde el *upstream* anglo hacia un *fork* con *vendor lock-in* Bunge. En 2007 el *porting* es manual; la postura es de desgaste: «solo traigo el parche que ya compiló el mundo anglo».
 
-🟡 [Inferencia Agentchain]: (Ref: `agentchain/composer/block-4.md`, `block-6.md`) El rechazo no es solo por formato, es un choque de dependencias teóricas. La base de código de la wiki española en temas de demarcación científica tiene un *vendor lock-in* tácito con el marco epistemológico de Mario Bunge (muy influyente en el escepticismo hispano). 
-
-🔴 [Deducción del Lector / Generativo]: La wiki anglo opera como una arquitectura de microservicios: si entidades independientes (como la National Science Foundation) validan la etiqueta, se acepta. La española, en cambio, intentaba operar bajo un monolito estricto, requiriendo que la demarcación pase un linter filosófico unificado (Bunge).
+🟡 [Inferencia Agentchain · `agentchain/composer/block-4.md`, `block-6.md`]: El rechazo no es solo formato — choque de dependencias teóricas. La wiki española exige que la demarcación pase un linter filosófico unificado (Bunge); el payload anglo apuesta por consenso institucional modular.
 
 ### Árbol de tensiones (Upstream Anglo vs. Fork Español / Bunge)
 
-*   **El Payload (Anglo):** 
-    *   *Filosofía:* Consenso pragmático y modular. Valida *endpoints* externos (fuentes fiables).
-    *   *Estructura:* Listas abiertas de pseudociencias basadas en consenso institucional.
-*   **El Linter (Española):**
-    *   *Filosofía:* Demarcación teórica fuerte (estándar Bunge). Todo *commit* debe cumplir criterios filosóficos duros de cientificidad.
-    *   *Estructura:* Resistencia a las "listas parche" que parezcan un cajón de sastre sin un *framework* estructural claro.
+*   **El Payload (Anglo):** consenso pragmático; listas abiertas validadas por fuentes externas.
+*   **El Linter (Española):** demarcación teórica fuerte; resistencia a parches sin *framework* Bunge.
 
-### El Plan desde cero (El refactor)
+### El refactor desde cero
 
-Cuando su *pull request* anglo fracasa y sufre un `git revert` humillante, SolveCoagula no abandona el repositorio. Hace algo más costoso en horas de desarrollo: inicia un *refactor* desde cero. 
+**Concesiones:** abandona *copy-paste* directo del upstream; negocia en discusión (oct–nov 2007).
 
-**Concesiones (Qué dropea en el nuevo plan):**
-*   Abandona el *copy-paste* directo del *upstream*.
-*   Se somete a las *code reviews* en la página de discusión (`talk`), adaptando el parche anglo a los requerimientos de los *maintainers* locales.
+**Qué resiste:** presión por fijar estándar de demarcación en *main*, reescribiendo commits bajo revisión local.
 
-**Qué resiste (El core inviolable):**
-*   Mantiene la presión sobre el objetivo principal: fijar un estándar de demarcación en el *main branch*, aunque tenga que reescribir los *commits* uno a uno y justificar cada línea en la discusión para pasar los filtros de Bunge.
-
-¿Quieres que haga una query a 🟢 `linea-aleph/cache/` para examinar el *diff* de ese `payload` rebotado, o prefieres que extraigamos los *logs* de la sala de discusión (`talk`) donde se produjeron estas *code reviews*?
+---
+**Siguiente:** [`blockchain/block-5.md`](../../blockchain/block-5.md) (perfil REIC) o diff en `linea-aleph/cache/snapshots/`. Talk-cache: acto cierre gemini 12+, no este bloque.

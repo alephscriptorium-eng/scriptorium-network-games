@@ -1,5 +1,6 @@
 # User 1
-Abrir el visor index-reader.md interactivo de la cadena **Solve et Coagula**!
+
+Abrir el visor index-reader.md interactivo de la cadena **Solve et Coagula**!
 
 Showcase de la interfaz UI y breve guia para uso del traje de rude-bot.
 
@@ -9,26 +10,18 @@ Gemini 3.1 Pro (High) · traje:puesto · poderes:cache-nav,epistem-tags,anti-seg
 
 > **Calibración engines** — main: mirar sin prisa.
 
-🔴 [Deducción del Lector / Generativo]: **Bienvenido al visor interactivo Solve et Coagula.** Estás dentro de un "libro" vivo, y yo funciono estrictamente en modo lectura. No vengo a venderte pólizas de seguros enciclopédicas ni a colapsar el contenido en moralejas estáticas; mi rol es mantener el expediente abierto y trazar rigurosamente los pasos en la pista de baile editorial (blockchain / agentchain / gemini / uichain).
+🔴 [Deducción del Lector / Generativo]: **Bienvenido al visor Solve et Coagula.** Libro vivo en modo lectura: no cierro expedientes ni vendo síntesis blandas. Las capas (blockchain / agentchain / gemini / uichain) se explican con `+ayuda`.
 
-### La Interfaz UI y Trazabilidad Epistemológica
+### Trazabilidad y traje
 
-Para garantizar que sabes exactamente de dónde viene la información, toda afirmación en esta interfaz está categorizada:
+Marcas 🟢🟡🔴⚪ y reglas completas: [`index-reader.md`](../../index-reader.md) § Trazabilidad. Con el **rude-bot** puesto priorizo caché y vacío explícito.
 
-*   🟢 **[Dato Wiki / Ground Truth]:** Hechos puros extraídos directamente de la caché (snapshots, diffs, historiales en `linea-aleph/`). Es la máxima autoridad.
-*   🟡 **[Inferencia Agentchain]:** Análisis o conclusiones destiladas por otros agentes y almacenadas en los bloques de la `agentchain`.
-*   🔴 **[Deducción del Lector / Generativo]:** Tejido narrativo, glosas o explicaciones generadas por mí en tiempo real (como este texto de bienvenida).
-*   ⚪ **[Blanco Explícito / DATO FALTANTE]:** Si la caché no tiene el dato, lo marco explícitamente en lugar de inventar. Si falta un `oldid`, te daré la opción de ejecutar un `fetch` a la wiki real.
+**Comandos útiles:**
 
-### Guía rápida: El traje de rude-bot
+*   `+ayuda` / `+help` — mapa de capas + Story Board
+*   `+poder <id>` / `-poder <id>` — togglear poderes (`alineacion-dual`, `cicd-loop`, …)
+*   `+force <id>` / `-force <id>` — engines Cohen (solo si lo pides)
+*   `sin disfraz` — quitar traje
 
-Ahora mismo llevo puesto el disfraz de **rude-bot**. Significa que priorizo el análisis forense, el archivo puro y la fricción editorial, evitando las síntesis complacientes. Puedes operar la interfaz lanzándome estos comandos directamente:
-
-*   `+ayuda` o `+help`: Activa el mapa topológico de capas del proyecto y el ultra-resumen del Story Board.
-*   `poderes`: Muestra el catálogo de habilidades encendidas/apagadas en mi traje.
-*   `+poder <id>` / `-poder <id>`: Conecta o desconecta habilidades (p. ej., `+poder alineacion-dual` o `+poder cicd-loop`).
-*   `forces?`: Lista los *engines Cohen* que pueden teñir la perspectiva de lectura.
-*   `+force <id>`: Activa un prisma específico (p. ej., `+force engine-model-G` para leer el archivo bajo el léxico de un pipeline CI/CD).
-*   `sin disfraz`: Me quito el traje y vuelvo a un estado de lectura normal (no recomendado si buscas rigor forense).
-
-¿Por dónde empezamos? ¿Quieres que cargue algún bloque de la `blockchain` para leerlo, activamos el mapa de capas con `+ayuda`, o exploramos algún viejo `oldid` de la caché?
+---
+**Siguiente:** `+ayuda` o continuar en [`reader-chain/gemini/block-2.md`](block-2.md).
