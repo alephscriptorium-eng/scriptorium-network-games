@@ -38,7 +38,7 @@ Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvi
 ### Datos
 
 - Metadatos `blockchain/block-{0..12}.md` (título user prompt, acto)
-- Presencia `agentchain/composer/block-N.md` y `reader-chain/gemini/block-N.md`
+- Presencia `agentchain/composer/block-N.md` y `reader-chain/gemini/block-N.md` (1–9)
 
 ### Visualización
 
@@ -48,8 +48,12 @@ Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvi
    - Fricción 8
    - Profundización 9–10
    - Meta-lectura 11–12
-2. **Chips subtrama** (toggle filter): Matrix · Noviembre/Analiza · Dual reader · Talk-cache
-3. **Nodo por bloque:** clic → abre lectura blockchain o selector agentchain si hay ramas.
+2. **Chips subtrama** (toggle filter): Matrix · Noviembre/Analiza · Dual reader · Talk-cache · **Gemini Acto II (7–9)**
+3. **Rama Gemini** (paralela a composer — no fusionar voces):
+   - Acto I: `reader-chain/gemini/block-1.md` … `block-6.md` (payload → recap baile)
+   - Acto II: `block-7.md` (vestuario UT) · `block-8.md` (dual-rail) · `block-9.md` (mensaje fantasma)
+   - Chip «Gemini Acto II» resalta nodos 7–9 al filtrar subtrama transmedia
+4. **Nodo por bloque:** clic → abre lectura blockchain o selector agentchain / gemini si hay ramas.
 
 ### Reglas UX
 

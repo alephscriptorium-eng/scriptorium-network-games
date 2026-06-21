@@ -50,7 +50,7 @@ Cinco actos, doce bloques:
 4. **Profundización** (9–10): anatomía del módulo Matrix y su genealogía entre demarcación y pseudociencia.
 5. **Meta-lectura** (11–12): index-reader, uichain, tablero de estado; de qué pasó a cómo se lee y qué falta en el archivo.
 
-Subtramas visibles en el tablero: la balada transmedia de la cadena Gemini frente a la crónica forense del compositor; el hilo Matrix como artefacto móvil; la tensión ortodoxia bungeana / heterodoxia demarcatoria; **Talk-cache** (chip activo: `registros_cached > 0` en `audit-talk.json`; bloque 13 profundiza en UT). Ramas Gemini presentes en bloques 1–6; composer cubre 0–12. El widget permitiría saltar de un hilo a un bloque sin leer la cadena entera —como un storyboard de serie— manteniendo visible en qué acto estamos.
+Subtramas visibles en el tablero: la balada transmedia de la cadena Gemini frente a la crónica forense del compositor; el hilo Matrix como artefacto móvil; la tensión ortodoxia bungeana / heterodoxia demarcatoria; **Talk-cache** (chip activo: `registros_cached > 0` en `audit-talk.json`; bloque 13 profundiza en UT). **Rama Gemini (1–9):** Acto I (1–6) — payload, baile noviembre, Matrix, recap; Acto II (7–9) — vestuario UT, dual-rail talk↔artículo, mensaje fantasma. Composer cubre 0–12. El widget permitiría saltar de un hilo a un bloque sin leer la cadena entera —como un storyboard de serie— manteniendo visible en qué acto estamos.
 
 ---
 
@@ -83,7 +83,7 @@ Tramitado en [`uichain/block-12-panel-estado.prompt.md`](../uichain/block-12-pan
 | Widget | Fuente de datos (🟢 ground truth) | Render mínimo |
 |--------|-----------------------------------|---------------|
 | **Cache Navegador Wiki** | `linea-aleph/cache/audit-block10.json`; `linea-aleph/cache/audit-talk.json`; `manifest.json` + `pseudociencia/manifest.json`; `talk/*/manifest.json` (4 vistas); colas `scripts/fetch-priority-*.json`, `fetch-priority-talk-block13.json` (+ waveB si existe) | Barras artículo (demarcación / pseudociencia: registros % vs milestones %); barras talk por vista; `missing` oleada activa; heatmap oct–nov 2007; `article_alignment` ±24 h; satélites thin en `INDICE2.md` |
-| **Tramas–Story Board** | `blockchain/block-{0..12}.md`; presencia `agentchain/composer/block-N.md`; `reader-chain/gemini/block-N.md` (1–6) | Cinco actos; chips Matrix · Noviembre/Analiza · Dual reader · **Talk-cache** (enabled si `audit-talk.totals.registros_cached > 0`); enlace a bloque |
+| **Tramas–Story Board** | `blockchain/block-{0..12}.md`; presencia `agentchain/composer/block-N.md`; `reader-chain/gemini/block-N.md` (1–9) | Cinco actos; chips Matrix · Noviembre/Analiza · Dual reader · **Talk-cache** · **Gemini Acto II** (7–9); enlace a bloque |
 
 Comportamiento aleph: el prompt uichain no prescribe CSS ni framework; cada generación puede variar disposición manteniendo los dos widgets y la política «no bloquear lectura si falta caché — mostrar vacío explícito». **No usar este bloque como única fuente numérica** — leer los audit JSON en cada sesión.
 
