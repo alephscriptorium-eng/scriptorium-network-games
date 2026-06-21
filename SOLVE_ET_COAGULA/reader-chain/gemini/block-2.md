@@ -51,7 +51,7 @@ flowchart TB
 | 1 | constitucion | ¿Cuánto archivo tenemos del pulso SolveCoagula? | ✓ | ✓ | ⚪ | — |
 | 2 | constitucion | ¿Qué otros artículos orbitan al protagonista? | ✓ | ✓ | ⚪ | — |
 | 3 | constitucion | ¿Qué satélites merecen su propia línea? | ✓ | ✓ | ⚪ | — |
-| 4 | constitucion | ¿Cómo radiografiamos a un enciclopedista sin jerga interna? | ✓ | ⚪ | ⚪ | — |
+| 4 | constitucion | ¿Cómo radiografiamos a un enciclopedista sin jerga interna? | ✓ | ✓ | ⚪ | — |
 | 5 | radiografia | ¿Quién es SolveCoagula como enciclopedista? | ✓ | ⚪ | ⚪ | — |
 | 6 | radiografia | ¿Qué construyó en Demarcación antes del campo de batalla? | ✓ | ⚪ | ui-block-6-recap | — |
 | 7 | radiografia | ¿Por qué Pseudociencia es el escenario inevitable? | ✓ | ⚪ | ⚪ | — |
@@ -64,7 +64,7 @@ flowchart TB
 | 14 | cierre | ¿Existió la sala que Retama e Ignacio citaron? | ✓ | ⚪ | block-14-timeline-dual | dual_reader · talk_cache |
 | 15 | cierre | ¿Qué quedó de SolveCoagula tras el último commit? | ✓ | ⚪ | ⚪ | epilogo |
 
-*Gemini 4+ pendiente — temas 11–15 cubiertos en `agentchain/composer` hasta regenerar reader.*
+*Gemini 5+ pendiente — temas 11–15 cubiertos en `agentchain/composer` hasta regenerar reader.*
 
 ---
 **Siguiente:** [`reader-chain/gemini/block-3.md`](block-3.md) (épica anglo) o `blockchain/block-0.md`.

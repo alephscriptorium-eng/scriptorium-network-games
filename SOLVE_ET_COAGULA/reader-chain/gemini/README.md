@@ -20,7 +20,8 @@ Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante d
 | 1 | Onboarding traje | 0–1 | UI + comandos; no duplicar [`index-reader.md`](../../index-reader.md) entero |
 | 2 | Demo `+ayuda` | todos (Q1–Q5) | Mapa capas + Story Board; canon runtime en poder `ayuda` |
 | 3 | Épica anglo / Bunge | 5–6 (radiografía) | Requiere 🟢 oldids oct 2007 antes de glosa DevOps |
-| 4+ | *pendiente* | 4–5 → … → 15 | Regenerar alineado al rediseño blockchain |
+| 4 | Protocolo REIC / manual de campo | 4 | Molde periodístico; 🟢 = archivo público MediaWiki |
+| 5+ | *pendiente* | 5 … 15 | Perfil SC, radiografía, cierre |
 
 ## Mínimos epistemológicos por bloque
 
@@ -28,13 +29,14 @@ Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante d
 |---|--------------------------------|--------------|
 | 1 | ninguno (onboarding) | `+ayuda` o gemini 2 |
 | 2 | leer `solve-coagula-story-board.json` o SKILL ayuda | gemini 3 o `blockchain/block-0.md` |
-| 3 | oldids **11663303** (previo), **12370021** (cierre oct SC) o ⚪+fetch | `blockchain/block-5.md` — no talk-cache |
+| 3 | oldids **11663303** (previo), **12370021** (cierre oct SC) o ⚪+fetch | `blockchain/block-4.md` (REIC) |
+| 4 | archivo público contribuciones MediaWiki (🟢 procedural) | `blockchain/block-5.md` (perfil SC) |
 
 ## Roadmap gemini 4+
 
 | gemini | Tema reader | Ancla blockchain |
 |--------|-------------|------------------|
-| 4 | Protocolo REIC / primera radiografía | 4–5 |
+| 4 | Protocolo REIC / manual de campo | 4 | ✓ vigente |
 | 5 | Perfil SolveCoagula | 5 |
 | 6–7 | Catedral demarcación · pseudociencia política | 6–7 |
 | 8 | Clímax noviembre (eco narrativo) | 8 |

@@ -32,4 +32,4 @@ Gemini 3.1 Pro (High) · traje:puesto · poderes:cache-nav,epistem-tags,anti-seg
 **Qué resiste:** presión por fijar estándar de demarcación en *main*, reescribiendo commits bajo revisión local.
 
 ---
-**Siguiente:** [`blockchain/block-5.md`](../../blockchain/block-5.md) (perfil REIC) o diff en `linea-aleph/cache/snapshots/`. Talk-cache: acto cierre gemini 12+, no este bloque.
+**Siguiente:** [`reader-chain/gemini/block-4.md`](block-4.md) (protocolo REIC) o diff en `linea-aleph/cache/snapshots/`. Talk-cache: acto cierre gemini 12+, no este bloque.

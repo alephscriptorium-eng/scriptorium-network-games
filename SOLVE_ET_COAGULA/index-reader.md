@@ -53,7 +53,7 @@ Cada vista expone `raw/linea.md` (historial API), `manifest.json` e `INDICE.md`.
 
 ## Gemini: baile en pista
 
-Itinerario transmedia en `reader-chain/gemini/` (bloques **1–3** vigentes). Convenciones y roadmap: [`reader-chain/gemini/README.md`](reader-chain/gemini/README.md). Registro **DevOps** fuerte (`merge conflict`, `git revert`, `linter`, `payload`); metáfora editorial = **forcejeo en pista / compás**, no léxico militar en voz narradora. *Gemini 4+ pendiente de alineación post-rediseño blockchain 11–15.*
+Itinerario transmedia en `reader-chain/gemini/` (bloques **1–4** vigentes). Convenciones y roadmap: [`reader-chain/gemini/README.md`](reader-chain/gemini/README.md). Registro **DevOps** fuerte (`merge conflict`, `git revert`, `linter`, `payload`); metáfora editorial = **forcejeo en pista / compás**, no léxico militar en voz narradora. *Gemini 5+ pendiente de alineación post-rediseño blockchain 11–15.*
 
 **Mapa de capas** (blockchain / agentchain / gemini / uichain): poder opt-in [`ayuda`](../../network-engine/agents/skills/disfraz-rude-bot/poderes/ayuda/SKILL.md) (`+ayuda` / `+help`) — ya no vive en `reader-chain/gemini/block-10.md` (descartado).
 
@@ -67,7 +67,7 @@ Itinerario transmedia en `reader-chain/gemini/` (bloques **1–3** vigentes). Co
 | Retama | No edita artículo; huella en UT | 12806744 (🟢 talk) | UT Analiza/SC |
 | Sala | Sin pasos registrados | — | Vacío estructural (🟢 negativo post-probe) |
 
-**Bloques vigentes (1–3):** intro traje · ayuda / mapa de capas · anglo payload (stub). Temas de la ejecución anterior (noviembre, Matrix, UT/dual/fantasma) viven en blockchain 12–15 y `agentchain/composer` 12–15.
+**Bloques vigentes (1–4):** intro traje · ayuda / mapa de capas · anglo payload · REIC manual de campo. Temas de cierre (noviembre, Matrix, UT/dual/fantasma) viven en blockchain 11–15 y `agentchain/composer` hasta gemini 5+.
 
 Auditoría marcas Gemini (snapshot histórico 1–9): [`agentchain/composer/block-12.md`](agentchain/composer/block-12.md) § Reader-chain Gemini — auditoría marcas.
 
