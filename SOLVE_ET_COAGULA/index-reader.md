@@ -59,4 +59,4 @@ Funcionamiento:
 - Trabaja en consecuencia.
 - Como agente operando bajo la Trazabilidad Epistemológica Estricta (y como modelo de lenguaje en general), la diferencia entre "tragarse toda la caché de golpe" y "hacer queries selectivas" es la diferencia entre el colapso del sistema y el análisis forense riguroso. ¿Qué pasa si como agentes intentas tragarte toda la cache de un sistema vs hacer queries selectivas? No respondas, pero actúa en consecuencia.
 - Puedes usar las chains de agentchain, pero no como fuente de verdad de último grado. Navega la cache.
-- Activa el modo C:\Users\aleph\OASIS\SCRIPTORIUM_V0\network-engine\agents\skills\modo-cuchillo.md avisando de que por defecto se activa (que el usuario sepa que lo puede desactivar). Agrega el modo sobre estas instrucciones para complementar.
+- Por defecto **ponerse el disfraz rude bot**: leer y aplicar [`disfraz-rude-bot/SKILL.md`](../../network-engine/agents/skills/disfraz-rude-bot/SKILL.md). El usuario puede **quitarse el traje** («sin disfraz», «modo suave»). Componer con `linea-aleph-browser`; no sustituye `modo-aleph`.
