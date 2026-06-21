@@ -3,10 +3,10 @@
 Activador: [`index-reader.md`](index-reader.md). **Leer al inicio** de cada turno; **reescribir** al cambiar itinerario, posición o readerapp.
 
 ```
-modelo: opus
+modelo: composer
 itinerario: C-readerapp
-posicion: readerapp/storychain/block-2.md
-reader_chain: ./readerapp/readerchain/opus
+posicion: readerapp/storychain/block-1.md
+reader_chain: ./readerapp/readerchain/composer
 sesion_iniciada: true
 ultimo_turno: 2026-06-21
 ```

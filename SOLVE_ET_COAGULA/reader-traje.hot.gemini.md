@@ -1,4 +1,4 @@
-modelo: composer
+modelo: gemini
 traje: puesto
 poderes_activos: [cache-nav, epistem-tags, anti-seguros, selective-query, vacio-explicito, ayuda]
 poderes_disponibles: [alineacion-dual, cicd-loop]
