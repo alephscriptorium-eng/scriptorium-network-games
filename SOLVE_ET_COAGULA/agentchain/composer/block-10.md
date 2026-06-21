@@ -73,9 +73,9 @@ Con **~31 %** del histórico de demarcación y **100 %** de milestones, puedo ra
 
 ### El módulo Matrix: cuando un thumb de cine hace vibrar dos artículos de filosofía
 
-Entre el **10** y el **16 de octubre de 2007**, el enciclopedista **SolveCoagula** volcó en [demarcación](https://es.wikipedia.org/wiki/Problema_de_la_demarcación) una traducción del upstream anglosajón —Popper, Kuhn, Feyerabend— **sin** cultura pop ni sección paranormal ([11951034](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11951034)). Seis días después inyectó el argumento de la simulación computacional (Bostrom, Chalmers) acompañado de un thumb de *The Matrix* y una pregunta enciclopédica: ¿sería ciencia o pseudociencia una teoría que postule vivir dentro de una simulación? **Validado** a partir de [12098576](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12098576).
+Entre el **10** y el **16 de octubre de 2007**, el enciclopedista **SolveCoagula** volcó en [demarcación](https://es.wikipedia.org/wiki/Problema_de_la_demarcación) una traducción del upstream anglosajón —Popper, Kuhn, Feyerabend— **sin** cultura pop ni sección paranormal ([11951034](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=11951034)). Seis días después inyectó el argumento de la simulación computacional (Bostrom, Chalmers) acompañado de un thumb de *The Matrix* y una pregunta enciclopédica: ¿sería ciencia o pseudociencia una teoría que postule vivir dentro de una simulación? El registro de [12098576](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12098576) lo documenta.
 
-Ese bloque no es un adorno lateral: es un **artefacto móvil** que SolveCoagula reubica, amplía y reordena hasta el cierre de noviembre ([12763920](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12763920)), y que hoy —en la versión viva de Wikipedia— ha sido podado ([166864369](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=166864369)). **Validado** en la cadena de snapshots cacheados.
+Ese bloque no es un adorno lateral: es un **artefacto móvil** que SolveCoagula reubica, amplía y reordena hasta el cierre de noviembre ([12763920](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12763920)), y que hoy —en la versión viva de Wikipedia— ha sido podado ([166864369](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=166864369)). La cadena de revisiones históricas lo confirma.
 
 ---
 
@@ -83,52 +83,38 @@ Ese bloque no es un adorno lateral: es un **artefacto móvil** que SolveCoagula 
 
 El módulo Matrix opera en **tres capas**:
 
-1. **Pedagógica.** Traduce el problema de demarcación (falsabilidad, plausibilidad racional, 20 % de probabilidad) a un experimento mental accesible —la película— antes de escalar a Zuse, Tipler y físicos Nobel. La anatomía retórica (Alcock → Matrix → Bostrom/Tipler) está en block-9; aquí basta decir que el thumb **conecta** Popper con Bostrom sin que el lector haya leído a Popper primero.
+1. **Pedagógica.** Traduce el problema de demarcación (falsabilidad, plausibilidad racional, 20 % de probabilidad) a un experimento mental accesible —la película— antes de escalar a Zuse, Tipler y físicos Nobel. La secuencia retórica —Alcock, thumb de cine, Bostrom/Tipler— abre con fenómenos paranormales y cierra con autoridades científicas; el thumb **conecta** Popper con Bostrom sin que el lector haya leído a Popper primero.
 
 2. **Estructural.** Matrix **no nace** con la sección «¿Ciencia normal, paranormal o pseudociencias?» ([12193056](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12193056)): se **traslada** allí desde otra sección. El módulo es portátil: mismo thumb, distinto contenedor retórico según la fase del taller.
 
-3. **Política enciclopédica.** El taller teórico vive en demarcación; el campo de aplicación, en [pseudociencia](https://es.wikipedia.org/wiki/Pseudociencia). Cuando SolveCoagula exporta el vocabulario de demarcación —sin consenso, holismo, teoría de cuerdas como caso límite— al artículo de etiqueta negativa, el módulo Matrix ya ha enseñado al lector que la frontera ciencia/pseudociencia **no es obvia**. La fricción de noviembre (volcados y reversiones en pseudociencia, block-8) es la consecuencia pública de un taller que incluyó pop y cosmología especulativa meses antes.
+3. **Política enciclopédica.** El taller teórico vive en demarcación; el campo de aplicación, en [pseudociencia](https://es.wikipedia.org/wiki/Pseudociencia). Cuando SolveCoagula exporta el vocabulario de demarcación —sin consenso, holismo, teoría de cuerdas como caso límite— al artículo de etiqueta negativa, el módulo Matrix ya ha enseñado al lector que la frontera ciencia/pseudociencia **no es obvia**. La fricción de noviembre —volcados y reversiones en pseudociencia— es la consecuencia pública de un taller que incluyó pop y cosmología especulativa meses antes.
 
-**Inferido:** Matrix «hace vibrar lo estático» porque convierte un artículo de filosofía en secuencia viva —inyección, reubicación, reordenación— en lugar de definición fija.
+Matrix «hace vibrar lo estático» porque convierte un artículo de filosofía en secuencia viva —inyección, reubicación, reordenación— en lugar de definición fija.
 
 ---
 
-### La línea y las cotas sima/cima
+### Cima y sima: dónde nace y dónde resuena
 
-En la **línea Aleph** del corpus SolveCoagula, demarcación es la **cima** del taller (677 registros, cierre 12 nov) y pseudociencia el **campo de batalla** visible (223 registros, pulso final 18 nov). El módulo Matrix se sitúa en la cima pero **resuena** en la sima:
+En el corpus de SolveCoagula, demarcación es la **cima** del taller —cierre el 12 de noviembre— y pseudociencia el **campo de batalla** visible —pulso final el 18 de noviembre—. El módulo Matrix se sitúa en la cima pero **resuena** en la sima:
 
-| Cota | Artículo | Papel del módulo Matrix |
-|------|----------|-------------------------|
-| **Cima** | Demarcación | Origen e inyección (oct); reubicación en sección paranormal; cierre retórico nov |
-| **Sima** | Pseudociencia | No contiene el thumb; hereda la pregunta —¿dónde cae la frontera si Nobel y Matrix plantean lo «paranormal»?— cuando el marco expandido choca con Analiza e Ignacio_Icke |
+En **demarcación**, Matrix es origen e inyección (octubre), reubicación en la sección paranormal (20 de octubre) y cierre retórico (noviembre). En **pseudociencia**, el thumb no aparece; hereda la pregunta —¿dónde cae la frontera si Nobel y Matrix plantean lo «paranormal»?— cuando el marco expandido choca con Analiza e Ignacio_Icke.
 
-El milestone r0129 ([12321538](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12321538)) **no** marca la primera aparición de Matrix: añade citas de Planck («Matriz de la materia»), Penrose y Schrödinger. Confundir homonimia léxica con el thumb de la película falsearía la genealogía. **Validado** en diff.
+Una revisión del 25 de octubre ([12321538](https://es.wikipedia.org/w/index.php?title=Problema_de_la_demarcación&oldid=12321538)) añade citas de Planck («Matriz de la materia»), Penrose y Schrödinger —**no** marca la primera aparición del thumb de la película. Confundir homonimia léxica con el módulo cinematográfico falsearía la genealogía.
 
 ---
 
 ### Elenco: quién choca con el artefacto
 
-Sin repetir los perfiles REIC del block-8, la relación funcional es:
+La relación funcional con los editores del pulso de noviembre es indirecta:
 
 - **SolveCoagula** — **constructor del módulo** y del marco que lo hace viajar entre secciones. Última palabra en demarcación y en el pulso final de pseudociencia.
 - **Analiza** e **Ignacio_Icke** — **revertidores** que no tocan Matrix directamente pero **contraen** el campo donde su pregunta aterriza: devuelven pseudociencia al manual bungeano (~34 000 bytes) frente al volcado demarcatorio (~140 000 bytes).
 
-El módulo Matrix no tiene antagonista propio; su tensión es **indirecta**: lo que en demarcación se enseña con un thumb, en pseudociencia se disputa como política de etiquetas. **Inferido** como lectura relacional; actos editoriales **validados** en block-8.
+El módulo Matrix no tiene antagonista propio; su tensión es **indirecta**: lo que en demarcación se enseña con un thumb, en pseudociencia se disputa como política de etiquetas.
 
 ---
 
-### Veredicto
-
-| Afirmación | Estado |
-|----------|--------|
-| Matrix inyectado por SC, no traído del upstream del 10 oct | **Validado** |
-| Primera inyección de Matrix: 16 oct a las 10:04 | **Validado** |
-| Reubicación en sección paranormal (20 oct) | **Validado** |
-| Módulo conecta taller demarcación ↔ pulso pseudociencia | **Inferido** — coherente con bloques 7–9 |
-| r0129 = primera aparición Matrix | **Falso** |
-| Intención pedagógica de SC al elegir pop | **No validable** |
-
-Entre el volcado del 10 de octubre y el 16 de octubre SolveCoagula **inyecta** en demarcación el argumento de simulación y un thumb de *Matrix* que pregunta si esa hipótesis es ciencia o pseudociencia; días después **reubica** ese bloque dentro de «¿Ciencia normal, paranormal o pseudociencias?» — todo **después** del upstream que no lo traía. Eso sostiene «inyecta módulo pop»; no sostiene «solo traduce el original».
+Entre el volcado del 10 de octubre y el 16 de octubre SolveCoagula **inyecta** en demarcación el argumento de simulación y un thumb de *Matrix* que pregunta si esa hipótesis es ciencia o pseudociencia; días después **reubica** ese bloque dentro de «¿Ciencia normal, paranormal o pseudociencias?» — todo **después** del upstream que no lo traía. No fue solo traducción: fue construcción editorial deliberada sobre un texto que no contenía cultura pop.
 
 ---
 

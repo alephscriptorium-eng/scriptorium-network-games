@@ -27,10 +27,24 @@ Antes de pedir fetch al usuario o marcar ⚪ [Blanco Explícito] / «DATO FALTAN
 | Cuerpo de revisión WP (ground truth) | `linea-aleph/cache/snapshots/{oldid}.wikitext` |
 | Pulso editorial (bytes, autor, summary) | `linea-aleph/pseudociencia/registros/*/registro.md` (y análogo en raíz para demarcación) |
 | Anclas cierre SolveCoagula | `linea-aleph/snapshots/sc_cierre/`, `linea-aleph/pseudociencia/snapshots/sc_cierre/` |
+| Cuerpo revisión talk (NS1 / NS3) | `linea-aleph/cache/talk/snapshots/{oldid}.wikitext` |
+| Pulso talk (meta, `article_refs`) | `linea-aleph/talk/{vista}/manifest.json` (4 vistas; ver abajo) |
+| Auditoría caché talk | `linea-aleph/cache/audit-talk.json` |
 
-**Si el oldid está cacheado:** leer, citar como 🟢 [Dato Wiki / Ground Truth] con oldid explícito. No emitir DATO FALTANTE para ese fragmento.
+**Corpus talk (paralelo a artículos).** Diseño en 🟡 [Inferencia Agentchain]: `agentchain/composer/block-12.md` (sección «Contenedor talk-cache»). Un mecanismo (`mw_client.py`, `fetch_snapshot.py --corpus`), dos namespaces: artículo (NS0) y discusión (NS1 `Discusión:`, NS3 `Usuario discusión:`). No mezclar snapshots talk en `cache/snapshots/`.
 
-**Si NO está cacheado:** marcar ⚪ [Blanco Explícito], indicar el **oldid concreto** y solicitar fetch (`fetch_snapshot.py --oldid {N}`). No inventar contenido del artículo.
+| Vista | `talk/{slug}/` | Título API | `linked_article` |
+|-------|----------------|------------|------------------|
+| Sala artículo | `discusion-pseudociencia/` | `Discusión:Pseudociencia` | `Pseudociencia` |
+| UT Analiza | `usuario-discusion-analiza/` | `Usuario discusión:Analiza` | — |
+| UT Ignacio_Icke | `usuario-discusion-ignacio-icke/` | `Usuario discusión:Ignacio_Icke` | — |
+| UT SolveCoagula | `usuario-discusion-solvecoagula/` | `Usuario discusión:SolveCoagula` | — |
+
+Cada vista expone `raw/linea.md` (historial API), `manifest.json` e `INDICE.md`. Cruce opcional talk ↔ commits artículo: campo `article_refs[]` en manifest talk (±24 h respecto a milestones en `pseudociencia/manifest.json`); flag `summary_cites_talk` en meta artículo (ej. oldid 12909144). Fetch bajo demanda: `fetch_snapshot.py --corpus talk`, oleadas según `CACHE_RUNBOOK.md` corpus talk.
+
+**Si el oldid está cacheado:** leer en `cache/snapshots/` (artículo) o `cache/talk/snapshots/` (talk); citar como 🟢 [Dato Wiki / Ground Truth] con oldid explícito. No emitir DATO FALTANTE para ese fragmento.
+
+**Si NO está cacheado:** marcar ⚪ [Blanco Explícito], indicar el **oldid concreto** y solicitar fetch (`fetch_snapshot.py --oldid {N}`; talk: `--corpus talk --title "…"`). No inventar contenido del artículo ni del hilo de discusión.
 
 **Política de fetch:** ver [`network-engine/linea-aleph/CACHE_RUNBOOK.md`](../../network-engine/linea-aleph/CACHE_RUNBOOK.md) y árbol «¿Qué endpoint?» en `linea-aleph-browser/SKILL.md` — API (`w/api.php`) o dumps; **nunca** scrape de `/wiki/`.
 
