@@ -1,24 +1,8 @@
 # User
 
-En los bloques anteriores se encontró que:
+¿Qué pasó en Pseudociencia entre el 10 y el 18 de noviembre de 2007?
 
-```
-- Fricción. Volcado masivo en pseudociencia ([12720368](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12720368)) revertido por Analiza ([12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652)). Pulso final: revert de Ignacio_Icke ([12909144](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12909144)) que devuelve la apertura bungeana; SolveCoagula restaura el marco al cerrar ([12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974)).
-```
-
-Además:
-
-```
-El núcleo demarcación funcionó como **taller teórico**; pseudociencia, como **campo de aplicación** donde esa teoría se vuelve política enciclopédica (qué etiquetas sobreviven, cuáles se cuestionan).
-```
-
-Usando el mecancismo de ../index.md
-
-Crea un artículo de prensa que...
-
-- narra 5W del periodismo las tensiones
-- breve perfil de los otros usuarios, presentación de los usuarios para ubicar articulos del juego y ver cómo construimos el elenco de aliados y archienemigos
-- Abstracción de lo anterior en una crónica de sucesos que no usa a los enciclopedistas para explicarse sino que se hace en términos de qué tensión heterodoxia/ortodoxa de los arquetipos y conceptos en disputa.
+Crea un artículo de prensa que entregue, en este orden: (1) crónica 5W del pulso; (2) elenco con tensiones editoriales (Analiza, Ignacio_Icke, SolveCoagula); (3) capa arquetípica heterodoxia/ortodoxia sin nombres propios. Sin infra uichain ni talk-cache — reservado al acto de cierre 12–15.
 
 # Agent
 
@@ -77,3 +61,9 @@ En un archivo donde cada edición deja huella, a veces no importan los nombres s
 Entre ambos polos actúan dos figuras de contención. El **revertidor dialógico** borra el volcado invocando neutralidad y pregunta si habrá conversación, pero su gesto es instantáneo —restaurar el núcleo, no negociar línea a línea en el cuerpo del artículo. El **revertidor consensual** hace lo mismo semanas después, apelando a una versión acordada en la sala de discusión. Ninguno de los dos escribe el manifiesto filosófico; **desmontan** el manifiesto ajeno.
 
 La secuencia, leída solo como tensión de conceptos: primero la **heterodoxia** despliega el problema de demarcación como campo de batalla epistemológico; la **ortodoxia** lo contrae a manual escéptico; la heterodoxia vuelve a desplegar; la ortodoxia contrae otra vez; la heterodoxia cierra restaurando el marco expandido. No es una guerra de biografías: es la disputa por ver si «pseudociencia» nombra una lista de engaños o un **límite sin criterio estable** entre ciencia, seudociencia y religión. El núcleo de demarcación funcionó como taller teórico y *Pseudociencia* como campo de aplicación donde esa teoría se volvió política enciclopédica — coherente con el texto de [12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974).
+
+### Anclas para el cierre (12–15)
+
+- **«Ver discusión»** — Ignacio_Icke en [12909144](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12909144); Analiza pregunta diálogo en [12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652). El acto de cierre investigará si esa discusión tiene contrapartida en sala o solo en UT.
+- **Revert Analiza** — [12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652) como primer pulso; talk alineado en bloques 12–13.
+- **Cierre SC** — [12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974): última palabra del constructor; epílogo del bloque 15.

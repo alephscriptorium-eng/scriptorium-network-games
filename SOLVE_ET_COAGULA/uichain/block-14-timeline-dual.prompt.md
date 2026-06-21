@@ -7,37 +7,22 @@
 
 Visualizar la **geografía de la conversación** del pulso 10–18 nov 2007: dos carriles sincronizados por fecha, con conectores de alineación entre commits del artículo y revisiones talk.
 
+## Datos (DRY)
+
+- **Milestones artículo + hits ±24 h (canon):** `network-engine/data/sessions/solve-coagula-block14-prensa-draft.json` (`article_milestones`, `talk_index.key_oldids`)
+- **Alineación runtime:** `network-engine/linea-aleph/cache/audit-talk.json` → `article_alignment.detalle` (y `anchors`)
+- **Lectura forense en sesión:** poder `alineacion-dual` — ver [`poderes/alineacion-dual/SKILL.md`](../../../network-engine/agents/skills/disfraz-rude-bot/poderes/alineacion-dual/SKILL.md)
+- **Snapshots talk:** `cache/talk/snapshots/{oldid}.wikitext` + `.meta.json`
+- **Manifests por vista:** `cache/talk/*/manifest.json`
+- No duplicar tablas de oldids aquí; leer JSON o SKILL
+
 ## Carril superior — Artículo *Pseudociencia*
 
-Milestones desde `agentchain/composer/block-8.md`:
-
-| Fecha (UTC) | oldid | Evento | Actor |
-|-------------|-------|--------|-------|
-| 10 nov 2007 ~18:45 | [12720368](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12720368) | Restauración tras revert Analiza | SolveCoagula |
-| 10 nov 2007 ~19:18 | [12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652) | Revert masivo PVN | Analiza |
-| 18 nov 2007 ~18:55 | [12909144](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12909144) | Revert «versión consensuada (ver discusión)» | Ignacio_Icke |
-| 18 nov 2007 ~19:55 | [12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974) | Restauración final + plantilla discutido | SolveCoagula |
-
-Render: nodos con tamaño proporcional a bytes ± en diff; color por actor (SC / Analiza / Ignacio).
+Render: nodos milestone desde block14 draft (`article_milestones`); tamaño proporcional a bytes ± en diff; color por actor (SC / Analiza / Ignacio).
 
 ## Carril inferior — Talk
 
-Fuente: `network-engine/linea-aleph/cache/audit-talk.json` → `article_alignment.detalle` + manifests `cache/talk/*/manifest.json`.
-
-### Hits alineados (±24 h)
-
-| talk_oldid | vista | article_oldid | Δ h |
-|------------|-------|---------------|-----|
-| 12719797 | usuario-discusion-analiza | 12719652 | 0.1 |
-| 12720101 | usuario-discusion-analiza | 12719652 | 0.3 |
-| 12720477 | usuario-discusion-analiza | 12719652 | 0.5 |
-| 12719917 | usuario-discusion-solvecoagula | 12719652 | 0.1 |
-| 12720326 | usuario-discusion-solvecoagula | 12719652 | 0.4 |
-| 12721439 | usuario-discusion-solvecoagula | 12719652 | 1.2 |
-| 12911274 | usuario-discusion-solvecoagula | 12909144 | 1.2 |
-| 12912735 | usuario-discusion-solvecoagula | 12909144 | 2.0 |
-
-Render: nodos agrupados por vista (chip de color); tooltip con extracto del wikitext cacheado (`cache/talk/snapshots/{oldid}.wikitext`).
+Render: nodos desde `audit-talk.json` → `article_alignment.detalle` + manifests `cache/talk/*/manifest.json`; agrupados por vista (chip de color); tooltip con extracto del wikitext cacheado (`cache/talk/snapshots/{oldid}.wikitext`).
 
 ### Conectores
 
@@ -47,7 +32,7 @@ Render: nodos agrupados por vista (chip de color); tooltip con extracto del wiki
 
 ## Huecos explícitos
 
-Renderizar como **zonas sombreadas vacías**, no como errores:
+Renderizar como **zonas sombreadas vacías**, no como errores (fuente: block14 draft `explicit_gaps` o manifests con 0 registros en ventana):
 
 | Vista | Motivo |
 |-------|--------|
@@ -55,16 +40,6 @@ Renderizar como **zonas sombreadas vacías**, no como errores:
 | `usuario-discusion-ignacio-icke` | 0 registros en ventana |
 
 Etiqueta UX: «vacío de archivo — no inferir contenido».
-
-## Datos
-
-- `network-engine/linea-aleph/cache/audit-talk.json`
-- `network-engine/linea-aleph/cache/talk/discusion-pseudociencia/manifest.json`
-- `network-engine/linea-aleph/cache/talk/usuario-discusion-analiza/manifest.json`
-- `network-engine/linea-aleph/cache/talk/usuario-discusion-ignacio-icke/manifest.json`
-- `network-engine/linea-aleph/cache/talk/usuario-discusion-solvecoagula/manifest.json`
-- `network-engine/linea-aleph/cache/talk/snapshots/{oldid}.wikitext`
-- `network-engine/linea-aleph/cache/talk/snapshots/{oldid}.meta.json`
 
 ## Reglas UX
 

@@ -3,6 +3,8 @@
 **Bloque origen:** `blockchain/block-12.md` · **Agentchain:** `agentchain/composer/block-12.md`  
 **Modo:** aleph generativo no determinista — esta especificación no fija UI única.
 
+> **Absorción Worker E (2026-06-21):** los widgets DevOps (Cache Navegador Wiki, Tramas–Story Board) viven **solo aquí** en uichain/ayuda — **no** en `blockchain/block-12.md` ni en `composer/block-12.md`. Blockchain 12 = pregunta dramática «¿Dónde hablaron cuando Pseudociencia ardía?» (vestuario UT). Composer 12 = artículo forense talk-cache. Widget A (caché) y Widget B (Story Board) = esta spec + poder `ayuda`.
+
 ## Objetivo
 
 Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvil) que orientan al lector antes de elegir itinerario blockchain o agentchain.
@@ -35,24 +37,17 @@ Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvi
 
 ## Widget B — Tramas–Story Board
 
-### Datos
+### Datos (DRY)
 
-- Metadatos `blockchain/block-{0..12}.md` (título user prompt, acto)
-- Presencia `agentchain/composer/block-N.md` y `reader-chain/gemini/block-N.md` (1–9)
+- **Story Board (canon):** `network-engine/data/sessions/solve-coagula-story-board.json` — regenerar: `python network-engine/scripts/story_board_manifest.py`
+- **Runtime:** poder `ayuda` Q1–Q5 — ver [`poderes/ayuda/SKILL.md`](../../../network-engine/agents/skills/disfraz-rude-bot/poderes/ayuda/SKILL.md) § Función 2
+- **Actos / chips / rutas gemini:** no duplicar aquí; leer JSON o SKILL
 
 ### Visualización
 
-1. **Timeline cinco actos** (horizontal scroll):
-   - Constitución 0–4
-   - Radiografía 5–7
-   - Fricción 8
-   - Profundización 9–10
-   - Meta-lectura 11–12
-2. **Chips subtrama** (toggle filter): Matrix · Noviembre/Analiza · Dual reader · Talk-cache · **Gemini Acto II (7–9)**
-3. **Rama Gemini** (paralela a composer — no fusionar voces):
-   - Acto I: `reader-chain/gemini/block-1.md` … `block-6.md` (payload → recap baile)
-   - Acto II: `block-7.md` (vestuario UT) · `block-8.md` (dual-rail) · `block-9.md` (mensaje fantasma)
-   - Chip «Gemini Acto II» resalta nodos 7–9 al filtrar subtrama transmedia
+1. **Timeline actos** (horizontal scroll): segmentos y etiquetas desde JSON `act` / SKILL § Mapa actos (Q5).
+2. **Chips subtrama** (toggle filter): ids y bloques desde JSON `chips` / SKILL § Subtramas — render como toggles filtrables.
+3. **Rama Gemini** (paralela a composer — no fusionar voces): nodos solo si `gemini.present` (rango vigente **1–3**; bloques 4–9 ausentes hasta regeneración alineada a blockchain 12–15). Rutas desde JSON + `reader-chain/gemini/block-{N}.md`. Mapa de capas vía poder `ayuda` (`+ayuda`) — **no** nodo `gemini/block-10.md` (descartado).
 4. **Nodo por bloque:** clic → abre lectura blockchain o selector agentchain / gemini si hay ramas.
 
 ### Reglas UX
@@ -72,7 +67,7 @@ Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvi
 ## Criterios de aceptación
 
 - [ ] Usuario ve % caché y % milestones sin abrir terminal
-- [ ] Usuario identifica acto actual y subtramas activas
+- [x] Usuario identifica acto actual y subtramas activas — **datos** cubiertos por `solve-coagula-story-board.json` + poder `ayuda` Q1–Q5 (render UI pendiente)
 - [ ] Dos sesiones distintas pueden generar layouts distintos sin romper datos
 - [ ] Talk-cache ausente (`audit-talk.json` inexistente o `registros_cached === 0`) se muestra como vacío explícito, no como error
 - [ ] Con talk cacheado, chip Talk-cache filtra subtrama y Widget A muestra barras por vista

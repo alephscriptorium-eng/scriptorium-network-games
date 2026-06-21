@@ -1,19 +1,5 @@
-En los bloques anteriores se encontró que:
+# User
 
-```
-- Fricción. Volcado masivo en pseudociencia ([12720368](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12720368)) revertido por Analiza ([12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652)). Pulso final: revert de Ignacio_Icke ([12909144](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12909144)) que devuelve la apertura bungeana; SolveCoagula restaura el marco al cerrar ([12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974)).
-```
+¿Qué pasó en Pseudociencia entre el 10 y el 18 de noviembre de 2007?
 
-Además:
-
-```
-El núcleo demarcación funcionó como **taller teórico**; pseudociencia, como **campo de aplicación** donde esa teoría se vuelve política enciclopédica (qué etiquetas sobreviven, cuáles se cuestionan).
-```
-
-Usando el mecancismo de ../index.md
-
-Crea un artículo de prensa que...
-
-- narra 5W del periodismo las tensiones
-- breve perfil de los otros usuarios, presentación de los usuarios para ubicar articulos del juego y ver cómo construimos el elenco de aliados y archienemigos
-- Abstracción de lo anterior en una crónica de sucesos que no usa a los enciclopedistas para explicarse sino que se hace en términos de qué tensión heterodoxia/ortodoxa de los arquetipos y conceptos en disputa.
+Crea un artículo de prensa que entregue, en este orden: (1) crónica 5W del pulso; (2) elenco con tensiones editoriales (Analiza, Ignacio_Icke, SolveCoagula); (3) capa arquetípica heterodoxia/ortodoxia sin nombres propios. Sin infra uichain ni talk-cache — reservado al acto de cierre 12–15.

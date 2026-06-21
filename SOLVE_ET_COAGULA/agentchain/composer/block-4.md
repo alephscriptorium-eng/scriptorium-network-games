@@ -1,10 +1,8 @@
 # User
 
-Cada enciclopedista es un mundo. Además hay enciclopedistas enquistados que forman la élite de libreros oficial y oficiosa haciendo que la experiencia del enciclopedista sea una aventura a veces de edición en solitario en un desierto otras verdaderos pulsos con la ortodoxia o singulares y peculiares tensiones heterodoxas. Afortunadamente, wikipedia mantiene el histórico y dado un usuario podemos ver si es un usuario tranquilo de ora et labora que como hormiguita ha ido participando en a construcción de la gran ontología enciclopédica, si ha sido un traductor (se dice que traductore traditore), si ha sido un vigilante de un orden canónico. Al final, en la visión podemos escribir cosas como. Dependiendo de qué devuelva el histórico veremos a un enciclopedista silencioso colando bloques de datos en los artículos, o en su extremo, a un censor que no ha puesto una línea en un artículo y se mantuvo como un "revertidor". Podremos ver qué le interesa al enciclopedista y cuál fue su relación con el corpus. Ejemplos de algunas preguntas genéricas: ¿quiso abrir una vía cerrada? ¿quiso corregir algo? ¿quiso enlazar con otras wikipedias?
+¿Cómo radiografiamos a un enciclopedista sin jerga interna?
 
-NOTA: Generaliza y abstrae mi párrafo anterior. Entiende cual es mi user intention y diseña un protocolo científico para radiografiar usuarios. No cierres el foco a lo literal de mis instrucciones.
-
-Eres un periodista que no va a dar por sentado que quien lee conoce esta codebase ni el vocabulario interno para indexar y montar el corpus. Crea un artículo para "El usuario <nombre de usuario> es (o fue) un enciclopedista que..."
+Crea un artículo de prensa que diseñe un protocolo exportable (REIC) y un molde periodístico: «El usuario X es (o fue) un enciclopedista que…»
 
 # Agent
 

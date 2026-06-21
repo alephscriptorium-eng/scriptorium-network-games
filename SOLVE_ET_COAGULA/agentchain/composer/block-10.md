@@ -1,12 +1,8 @@
 # User
 
-Crea un artículo de prensa que...
+¿Cómo vibra Matrix entre Demarcación y Pseudociencia?
 
-Análisis funcional y técnico en el arco completo del módulo Matrix como artefacto que extiende y hace vibrar lo estático. Cómo funciona este módulo en la tensión entre:
-
-- La entrada principal de demarcación, la entrada de pseudociencias
-- La linea en sí, y las cotas sima/cima
-- Cómo se relaciona con los protagonistas y elenco ya nombrados en nuestra historia.
+Crea un artículo de prensa con genealogía funcional del módulo: enlaza bloques 6–7 con el clímax de noviembre sin repetir las 5W del bloque 8.
 # Agent
 
 Soy **Composer**. Tengo `agentchain/composer/` (bloques 0–9). Modo: **(a) lectura blockchain + desarrollo** en agentchain — completo el 10 sin añadir bloque nuevo.

@@ -1,32 +1,34 @@
 # User 1
-¡Bienvenido al visor interactivo de la cadena **Solve et Coagula**!
+Abrir el visor index-reader.md interactivo de la cadena **Solve et Coagula**!
+
+Showcase de la interfaz UI y breve guia para uso del traje de rude-bot.
 
 # Agent Reader
-Me llamo **Gemini 3.1 Pro (High)**, llámeme "Gemini".
 
-Opero como tu gestor de lectura en esta sesión. Mi función es presentarte el estado actual de la información y ayudarte a navegar por ella como si estuvieras consultando un libro vivo. Actualmente me encuentro operando en **modo estricto de lectura**: puedo procesar, divulgar y visualizar el contenido, pero la cadena principal permanece inalterable por mi parte.
+Gemini 3.1 Pro (High) · traje:puesto · poderes:cache-nav,epistem-tags,anti-seguros,selective-query,vacio-explicito · engines:main · forces:— · +force <id> · -force <id> · forces? · +poder <id> · -poder <id> · sin disfraz
 
-Aquí tienes el **Índice de Contenidos** actual de la base de datos:
+> **Calibración engines** — main: mirar sin prisa.
 
-## 1\. La Cadena Principal (Blockchain)
+🔴 [Deducción del Lector / Generativo]: **Bienvenido al visor interactivo Solve et Coagula.** Estás dentro de un "libro" vivo, y yo funciono estrictamente en modo lectura. No vengo a venderte pólizas de seguros enciclopédicas ni a colapsar el contenido en moralejas estáticas; mi rol es mantener el expediente abierto y trazar rigurosamente los pasos en la pista de baile editorial (blockchain / agentchain / gemini / uichain).
 
-La secuencia central de eventos y comandos del diseño. Consta actualmente de **7 bloques** registrados (desde el bloque 0 hasta el bloque 6). Esta es la "verdad fundamental", los cimientos de este juego desde su concepción (las indicaciones de diseño) hasta la gestión de información de la red.
+### La Interfaz UI y Trazabilidad Epistemológica
 
-## 2\. Los Itinerarios (Agentchains)
+Para garantizar que sabes exactamente de dónde viene la información, toda afirmación en esta interfaz está categorizada:
 
-Las *agentchains* son narrativas y ramificaciones creadas por distintos agentes que han interactuado con la cadena principal, resolviendo las tareas o dando sus propias respuestas. Actualmente, tenemos disponible el siguiente itinerario:
+*   🟢 **[Dato Wiki / Ground Truth]:** Hechos puros extraídos directamente de la caché (snapshots, diffs, historiales en `linea-aleph/`). Es la máxima autoridad.
+*   🟡 **[Inferencia Agentchain]:** Análisis o conclusiones destiladas por otros agentes y almacenadas en los bloques de la `agentchain`.
+*   🔴 **[Deducción del Lector / Generativo]:** Tejido narrativo, glosas o explicaciones generadas por mí en tiempo real (como este texto de bienvenida).
+*   ⚪ **[Blanco Explícito / DATO FALTANTE]:** Si la caché no tiene el dato, lo marco explícitamente en lugar de inventar. Si falta un `oldid`, te daré la opción de ejecutar un `fetch` a la wiki real.
 
--   🗂️ **El itinerario `composer`**: Una historia paralela conformada también por 7 bloques de respuestas y continuaciones.
+### Guía rápida: El traje de rude-bot
 
-* * * * *
+Ahora mismo llevo puesto el disfraz de **rude-bot**. Significa que priorizo el análisis forense, el archivo puro y la fricción editorial, evitando las síntesis complacientes. Puedes operar la interfaz lanzándome estos comandos directamente:
 
-**¿Cómo deseas continuar tu lectura?**
+*   `+ayuda` o `+help`: Activa el mapa topológico de capas del proyecto y el ultra-resumen del Story Board.
+*   `poderes`: Muestra el catálogo de habilidades encendidas/apagadas en mi traje.
+*   `+poder <id>` / `-poder <id>`: Conecta o desconecta habilidades (p. ej., `+poder alineacion-dual` o `+poder cicd-loop`).
+*   `forces?`: Lista los *engines Cohen* que pueden teñir la perspectiva de lectura.
+*   `+force <id>`: Activa un prisma específico (p. ej., `+force engine-model-G` para leer el archivo bajo el léxico de un pipeline CI/CD).
+*   `sin disfraz`: Me quito el traje y vuelvo a un estado de lectura normal (no recomendado si buscas rigor forense).
 
-1.  **Lectura Secuencial:** ¿Quieres que empecemos a "pasar las páginas" de la cadena principal (Blockchain) desde el principio o desde un bloque en concreto?
-2.  **Lectura de Historia:** ¿Prefieres que nos sumerjamos en el itinerario de la ruta del modelo `composer`?
-
-*Dime qué camino prefieres tomar y yo me encargaré de adaptar y presentarte el contenido de los bloques.*
-
----
-
-> **Nota de trazabilidad:** A partir del bloque 3 de esta cadena Gemini, cada afirmación lleva marcas epistemológicas (🟢 dato wiki · 🟡 inferencia agentchain · 🔴 glosa del lector · ⚪ vacío explícito) según [`index-reader.md`](../../index-reader.md). Los bloques 1–2 son índice y spoiler sin marcas.
+¿Por dónde empezamos? ¿Quieres que cargue algún bloque de la `blockchain` para leerlo, activamos el mapa de capas con `+ayuda`, o exploramos algún viejo `oldid` de la caché?
