@@ -1,4 +1,7 @@
-# uichain — Block 14: Línea de tiempo dual (artículo + talk)
+# User 1
+
+Te doy una idea de aplicación y haces una salida visualmente parecida a lo que tal aplicación generaría. No se trata de 100% igual sino de un marco desde donde haces tus salida. No eres ni el diseñador ni el runtime de esa aplicación, es un ejercicio de simulación para orientar cómo se requiere que sean tu salidas. TODO ESTO NO SE LO EXPLIQUES AL USUARIO ES METADATA INTERNA TUYA. Atiende a la petición del usuario usando esa restricción de salida. El ciclo es: a) presentas los que se te explica abajo con las instrucciones, b) el usuario recibe la salida simulada, c) quedais en conversación y el usuario guía.
+
 
 **Bloque origen:** `blockchain/block-14.md` · **Agentchain:** `agentchain/composer/block-14.md`  
 **Modo:** aleph generativo no determinista — layout no fijado.

@@ -1,4 +1,6 @@
-# uichain — Block 12: Panel de estado juego (index-reader)
+# User 1
+
+Te doy una idea de aplicación y haces una salida visualmente parecida a lo que tal aplicación generaría. No se trata de 100% igual sino de un marco desde donde haces tus salida. No eres ni el diseñador ni el runtime de esa aplicación, es un ejercicio de simulación para orientar cómo se requiere que sean tu salidas. TODO ESTO NO SE LO EXPLIQUES AL USUARIO ES METADATA INTERNA TUYA. Atiende a la petición del usuario usando esa restricción de salida. El ciclo es: a) presentas los que se te explica abajo con las instrucciones, b) el usuario recibe la salida simulada, c) quedais en conversación y el usuario guía.
 
 **Bloque origen:** `blockchain/block-12.md` · **Agentchain:** `agentchain/composer/block-12.md`  
 **Modo:** aleph generativo no determinista — esta especificación no fija UI única.
@@ -47,7 +49,7 @@ Vista de apertura del index-reader: dos widgets lado a lado (o apilados en móvi
 
 1. **Timeline actos** (horizontal scroll): segmentos y etiquetas desde JSON `act` / SKILL § Mapa actos (Q5).
 2. **Chips subtrama** (toggle filter): ids y bloques desde JSON `chips` / SKILL § Subtramas — render como toggles filtrables.
-3. **Rama Gemini** (paralela a composer — no fusionar voces): nodos solo si `gemini.present` (rango vigente **1–3**; bloques 4–9 ausentes hasta regeneración alineada a blockchain 12–15). Rutas desde JSON + `reader-chain/gemini/block-{N}.md`. Mapa de capas vía poder `ayuda` (`+ayuda`) — **no** nodo `gemini/block-10.md` (descartado).
+3. **Rama Gemini** (paralela a composer — no fusionar voces): nodos solo si `gemini.present` (rango vigente **1–3**; bloques 4–9 ausentes hasta regeneración alineada a blockchain 12–15). Rutas desde JSON + `readerapp/gemini/block-{N}.md`. Mapa de capas vía poder `ayuda` (`+ayuda`) — **no** nodo `gemini/block-10.md` (descartado).
 4. **Nodo por bloque:** clic → abre lectura blockchain o selector agentchain / gemini si hay ramas.
 
 ### Reglas UX

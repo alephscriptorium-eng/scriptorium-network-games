@@ -9,7 +9,7 @@ Canal de **especificación UI generativa** para Solve et Coagula. Los `.prompt.m
 ```markdown
 # uichain — Block N: <título>
 
-**Bloque origen:** `blockchain/block-N.md` · **Agentchain:** `agentchain/composer/block-N.md`
+**Bloque origen:** `blockchain/block-N.md` · **Agentchain:** `agentchain/<modelo-slug>/block-N.md`
 **Modo:** aleph generativo no determinista — layout no fijado.
 
 ## Objetivo
@@ -36,7 +36,7 @@ Canal de **especificación UI generativa** para Solve et Coagula. Los `.prompt.m
 | Paso | Acción |
 |------|--------|
 | 1 | Rama `uichain/block-N-<slug>` en site build o SPA local |
-| 2 | Fetch relativo a JSON estático / markdown index-reader |
+| 2 | Fetch relativo a JSON estático / activador index-reader |
 | 3 | Sin backend obligatorio salvo que el bloque lo exija |
 | 4 | Tests con fixture de audit o subset de manifest |
 
@@ -53,19 +53,3 @@ Canal de **especificación UI generativa** para Solve et Coagula. Los `.prompt.m
 - Mezclar 🟢 wiki con 🟡 agentchain sin etiqueta
 - Ejecutar fetch automático desde la UI
 ```
-
-## Prompts actuales
-
-| Archivo | Bloque | Datos DRY | Spec única uichain |
-|---------|--------|-----------|-------------------|
-| `ui-block-6-recap.md` | 6 | gemini 1–6, agentchain | Scrollytelling Acto I |
-| `block-12-panel-estado.prompt.md` | 12 | story-board.json + ayuda | Widget A caché (audit, heatmap) |
-| `block-14-timeline-dual.prompt.md` | 14 | block14 draft + audit-talk + alineacion-dual | Carriles dual + conectores Δh |
-
-## Relación con el traje
-
-| Poder | Usa uichain para… |
-|-------|-------------------|
-| `ayuda` | Q4 lista paths; mapa capas nombra prompts; Función 2 alinea chips con Widget B |
-| `alineacion-dual` | Hallazgo block-14; estructura dos carriles en texto, no render |
-| `cache-nav` | Independiente; Widget A block-12 consume mismos audit paths |

@@ -1,4 +1,4 @@
-# Cadena gemini — reader-chain
+# Cadena <modelo-slug> — readerapp
 
 Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante del libro vivo. No opera la blockchain; persiste actos de lectura en `block-{N}.md`.
 
@@ -7,17 +7,17 @@ Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante d
 | Campo | Regla |
 |-------|-------|
 | `# User {N}` | `N` = número del archivo (`block-N.md`) |
-| `# Agent Reader` | Respuesta gemini persistente (artefacto de cadena) |
+| `# Agent Reader` | Respuesta <modelo-slug> persistente (artefacto de cadena) |
 | Cabecera traje | Primera línea tras `# Agent Reader` — ver [`disfraz-rude-bot/SKILL.md`](../../../../network-engine/agents/skills/disfraz-rude-bot/SKILL.md) § Cabecera |
-| Plantilla | [`reader-gemini-block.hot.md`](../../../../network-engine/agents/skills/disfraz-rude-bot/templates/reader-gemini-block.hot.md) |
+| Plantilla | [`reader-<modelo-slug>-block.hot.md`](../../../../network-engine/agents/skills/disfraz-rude-bot/templates/reader-<modelo-slug>-block.hot.md) |
 
 ## Paridad con blockchain
 
-**No es copia 1:1.** `gemini/block-N.md` no repite literalmente `blockchain/block-N.md`. El número de archivo marca el **orden del viaje reader**, no la pregunta ledger del mismo índice.
+**No es copia 1:1.** `<modelo-slug>/block-N.md` no repite literalmente `blockchain/block-N.md`. El número de archivo marca el **orden del viaje reader**, no la pregunta ledger del mismo índice.
 
-| gemini N | Acto reader | Blockchain relacionada | Notas |
+| <modelo-slug> N | Acto reader | Blockchain relacionada | Notas |
 |----------|-------------|------------------------|-------|
-| 1 | Onboarding traje | 0–1 | UI + comandos; no duplicar [`index-reader.md`](../../index-reader.md) entero |
+| 1 | Onboarding traje | 0–1 | UI + comandos; ver [`index-reader.md`](../../index-reader.md) activador |
 | 2 | Demo `+ayuda` | todos (Q1–Q5) | Mapa capas + Story Board; canon runtime en poder `ayuda` |
 | 3 | Épica anglo / Bunge | 5–6 (radiografía) | Requiere 🟢 oldids oct 2007 antes de glosa DevOps |
 | 4 | Protocolo REIC / manual de campo | 4 | Molde periodístico; 🟢 = archivo público MediaWiki |
@@ -27,14 +27,14 @@ Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante d
 
 | N | 🟢 obligatorio antes de narrar | CTA sugerido |
 |---|--------------------------------|--------------|
-| 1 | ninguno (onboarding) | `+ayuda` o gemini 2 |
-| 2 | leer `solve-coagula-story-board.json` o SKILL ayuda | gemini 3 o `blockchain/block-0.md` |
+| 1 | ninguno (onboarding) | `+ayuda` o <modelo-slug> 2 |
+| 2 | leer `solve-coagula-story-board.json` o SKILL ayuda | <modelo-slug> 3 o `blockchain/block-0.md` |
 | 3 | oldids **11663303** (previo), **12370021** (cierre oct SC) o ⚪+fetch | `blockchain/block-4.md` (REIC) |
 | 4 | archivo público contribuciones MediaWiki (🟢 procedural) | `blockchain/block-5.md` (perfil SC) |
 
-## Roadmap gemini 4+
+## Roadmap <modelo-slug> 4+
 
-| gemini | Tema reader | Ancla blockchain |
+| <modelo-slug> | Tema reader | Ancla blockchain |
 |--------|-------------|------------------|
 | 4 | Protocolo REIC / manual de campo | 4 | ✓ vigente |
 | 5 | Perfil SolveCoagula | 5 |
@@ -43,10 +43,10 @@ Narrativa paralela del **index-reader**: cómo se cuenta el juego al visitante d
 | 9–10 | Flashback Matrix · genealogía | 9–10 |
 | 11–15 | Cierre (contrato · vestuario · dual · fantasma · epílogo) | 11–15 |
 
-Actualizar `gemini_range` en [`story_board_manifest.py`](../../../../network-engine/scripts/story_board_manifest.py) solo cuando existan archivos en disco.
+Actualizar `<modelo-slug>_range` en [`story_board_manifest.py`](../../../../network-engine/scripts/story_board_manifest.py) solo cuando existan archivos en disco.
 
 ## Lint
 
 ```bash
-python network-engine/scripts/lint_gemini_chain.py
+python network-engine/scripts/lint_<modelo-slug>_chain.py
 ```

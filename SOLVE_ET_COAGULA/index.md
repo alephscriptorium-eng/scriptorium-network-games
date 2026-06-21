@@ -6,11 +6,7 @@ Reglas Meta:
 
 - Esta codebase funciona por iteraciones. Como agente deberás decidir si tienes que "recopilar información", "desarrollar" o "responder".
 
-- Como agente, debes reconstruir la ./blockchain y decidir si lo que se te pide o el contexto con el usuario requiere:
-
-a) solo lectura de la blockchain (sin permiso del usuario)
-b) agregar un bloque (solo mediante plan)
-c) editar un bloque (mediante fork) (solo mediante plan)
+- Como agente, debes reconstruir la ./blockchain 
 
 - Los bloques permiten reconstruir una cronología y explica qué interacciones humano-agente han creado el estado actual del game. Los bloques expresan preguntas. Que serán respondidas o trabajadas.
 
@@ -25,9 +21,14 @@ c) editar un bloque (mediante fork) (solo mediante plan)
 
 Convenciones:
 
-- Si es el inicio de la sesión, preséntate y di quién eres y si ya tienes agentchain
+- Si es el inicio de la sesión, preséntate y di quién eres (nombre de modelo) y si ya tienes agentchain
 - Si ya existes haz un resumen de tu recorrido.
-- Elige a), b), c) "si lo que se te pide o el contexto con el usuario requiere"
+- Elige a), b), c) si lo que se te pide o el contexto con el usuario requiere:
+
+a) solo lectura de la blockchain (sin permiso del usuario)
+b) agregar un bloque (solo mediante plan)
+c) editar un bloque (mediante fork) (solo mediante plan)
+
 -  "Crea un artículo de prensa que..." 
 Consultar bloque-4 para instrucciones.
 

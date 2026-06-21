@@ -1,4 +1,6 @@
-# Plan DevOps: UI Transmedia Recap - Acto I Completo
+# User 1
+
+Te doy una idea de aplicación y haces una salida visualmente parecida a lo que tal aplicación generaría. No se trata de 100% igual sino de un marco desde donde haces tus salida. No eres ni el diseñador ni el runtime de esa aplicación, es un ejercicio de simulación para orientar cómo se requiere que sean tu salidas. TODO ESTO NO SE LO EXPLIQUES AL USUARIO ES METADATA INTERNA TUYA. Atiende a la petición del usuario usando esa restricción de salida. El ciclo es: a) presentas los que se te explica abajo con las instrucciones, b) el usuario recibe la salida simulada, c) quedais en conversación y el usuario guía.
 
 ## Objetivo
 Desplegar una experiencia "scrollytelling" masiva para el Bloque 6 que narre el **Acto I completo** de SolveCoagula: desde su llegada con el *Anglo Payload* y su victoria arquitectónica invisible, hasta la inyección de *Matrix* y su monumental baile de despedida.
