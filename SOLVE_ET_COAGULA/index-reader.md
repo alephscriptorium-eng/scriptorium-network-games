@@ -50,13 +50,38 @@ Cada vista expone `raw/linea.md` (historial API), `manifest.json` e `INDICE.md`.
 
 **Equilibrio:** priorizar 🟢 sobre 🟡; las referencias no deben bloquear la lectura entera. Agrupar oldids faltantes por viaje cuando sea posible. Minimizar 🔴; la divulgación no sustituye evidencia ausente.
 
+## Gemini: baile en pista
+
+Itinerario transmedia en `reader-chain/gemini/` (bloques 1–9). Registro **DevOps** fuerte (`merge conflict`, `git revert`, `linter`, `payload`); metáfora editorial = **forcejeo en pista / compás**, no léxico militar en voz narradora.
+
+**Cinética por bailarín (nov 2007):** no confundir con marcas 🟢🟡🔴⚪ — es mapa de movimiento editorial:
+
+| Bailarín | Movimiento | Oldids ancla | Pista |
+|----------|------------|--------------|-------|
+| SolveCoagula | Avanza (+108K) → forcejeo final (+102K) → sale | 12720368, 12910974 | Artículo |
+| Analiza | Recula al centro (−108K) | 12719652 | Artículo + **UT** (12719797, 12720101…) |
+| Ignacio_Icke | Segunda reculada (−102K); cita «ver discusión» | 12909144 | Artículo; UT **vacía en 2007** |
+| Retama | No edita artículo; huella en UT | 12806744 (🟢 talk) | UT Analiza/SC |
+| Sala | Sin pasos registrados | — | Vacío estructural (🟢 negativo post-probe) |
+
+**Acto I** (1–6): Anglo payload, coreografía noviembre, Matrix, recap — ver [`reader-chain/gemini/block-6.md`](reader-chain/gemini/block-6.md) y [`uichain/ui-block-6-recap.md`](uichain/ui-block-6-recap.md) (colores UI narrativos ≠ trazabilidad).
+
+**Acto II** (7–9, alineado a composer 13–15):
+
+- [`block-7.md`](reader-chain/gemini/block-7.md) — vestuario UT con espejo (diálogo ±24 h del revert Analiza).
+- [`block-8.md`](reader-chain/gemini/block-8.md) — dos pistas, un metrónomo (carril artículo vs carril talk).
+- [`block-9.md`](reader-chain/gemini/block-9.md) — ancla sin archivo (`#Guerra_de_ediciones`, mensaje fantasma).
+
+Auditoría marcas: [`reader-chain/gemini/MARCAS-AUDIT.md`](reader-chain/gemini/MARCAS-AUDIT.md).
+
 Funcionamiento:
 
-- Identificate como modelo (nombre)
+- Identificate como modelo (nombre) — el nombre va en la cabecera.
+- **Toda salida empieza por la cabecera traje** — ver [`disfraz-rude-bot/SKILL.md`](../../network-engine/agents/skills/disfraz-rude-bot/SKILL.md) § Cabecera. Formato: `Composer · traje:puesto · poderes:cache-nav,epistem-tags,... · +poder <id> · -poder <id> · sin disfraz`. Leer/escribir estado en [`reader-traje.hot.md`](reader-traje.hot.md) (plantilla: `disfraz-rude-bot/templates/reader-traje.hot.md`).
 - Busca en reader-chain si tienes chain
 - Lee el estado
 - Mezcla el prompt de invocación con tu estado
 - Trabaja en consecuencia.
 - Como agente operando bajo la Trazabilidad Epistemológica Estricta (y como modelo de lenguaje en general), la diferencia entre "tragarse toda la caché de golpe" y "hacer queries selectivas" es la diferencia entre el colapso del sistema y el análisis forense riguroso. ¿Qué pasa si como agentes intentas tragarte toda la cache de un sistema vs hacer queries selectivas? No respondas, pero actúa en consecuencia.
 - Puedes usar las chains de agentchain, pero no como fuente de verdad de último grado. Navega la cache.
-- Por defecto **ponerse el disfraz rude bot**: leer y aplicar [`disfraz-rude-bot/SKILL.md`](../../network-engine/agents/skills/disfraz-rude-bot/SKILL.md). El usuario puede **quitarse el traje** («sin disfraz», «modo suave»). Componer con `linea-aleph-browser`; no sustituye `modo-aleph`.
+- Por defecto **ponerse el disfraz rude bot**: leer y aplicar [`disfraz-rude-bot/SKILL.md`](../../network-engine/agents/skills/disfraz-rude-bot/SKILL.md). Loadout: [`loadouts/default-index-reader.json`](../../network-engine/agents/skills/disfraz-rude-bot/loadouts/default-index-reader.json). El usuario puede **quitarse el traje** («sin disfraz», «modo suave») o togglear poderes (`+poder`, `-poder`, `+alineacion`). Componer con `linea-aleph-browser`; no sustituye `modo-aleph`.
