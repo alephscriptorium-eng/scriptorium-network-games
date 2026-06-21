@@ -10,11 +10,13 @@ Desplegar una experiencia "scrollytelling" masiva para el Bloque 6 que narre el 
 
 ## Estética (Design System)
 - **Atmosfera:** Base de datos a oscuras, solo iluminada por LEDs de actividad.
-- **Colores de Acento (El Conflicto Epistémico):** 
-  - 🔴 Rojo Neón (La Anomalía / SolveCoagula / La Improvisación).
-  - 🔵 Azul Eléctrico (El Sistema / Bunge / El Compás Ortodoxo).
-  - 🟢 Verde Fósforo (Data cruda / Ground Truth).
+- **Colores de Acento (Narrativa UI — no marcas epistemológicas):** 
+  - Rojo Neón (SolveCoagula / improvisación en pantalla).
+  - Azul Eléctrico (Bunge / compás ortodoxo en pantalla).
+  - Verde Fósforo (destacar datos crudos en UI, distinto del 🟢 de trazabilidad en texto).
 - **Tipografía:** 'Outfit' o 'Inter' para el texto narrativo, y 'JetBrains Mono' para simular las trazas de los commits.
+
+> **Disambiguación:** Los acentos rojo/azul del scrollytelling son **CSS narrativo**. Las marcas 🟢🟡🔴⚪ viven en el texto del reader (`index-reader.md`) y no deben mapearse 1:1 a pastillas Matrix ni a clases `redPill`/`bluePill`.
 
 ## Componentes Core (El Viaje del Héroe Digital)
 
@@ -24,9 +26,9 @@ Desplegar una experiencia "scrollytelling" masiva para el Bloque 6 que narre el 
 - Botón "Play" central que inicia un paisaje sonoro (ambient electrónico oscuro) y libera el *scroll*.
 
 ### 2. Scrollytelling Timeline (Los Movimientos)
-- **Mov. 1: El Linter Fail (El Anglo Payload).** Al hacer scroll, una gruesa línea de código baja, pero choca contra una barrera azul cristalina que emite el error `Bunge_Violation`. La pantalla vibra ligeramente.
+- **Mov. 1: El Linter Fail (El Anglo Payload).** Al hacer scroll, una gruesa línea de código baja, pero choca contra una barrera azul cristalina que emite el error `compas_Bunge`. La pantalla vibra ligeramente.
 - **Mov. 2: La Pastilla Roja.** Un componente 3D interactivo en el centro. El usuario puede girar una tarjeta translúcida: de un lado se ve el orden bungeano (Azul), del otro, la disonancia de Matrix y Feyerabend (Rojo).
-- **Mov. 3: El Gran Baile.** Representación abstracta del conflicto de ediciones de noviembre. Círculos rojos expansivos contra escudos azules cuadrangulares. Cada vez que el usuario baja, un `git revert` devuelve la pantalla a la normalidad, hasta la explosión final del `force-restore`.
+- **Mov. 3: El Gran Baile.** Representación abstracta del forcejeo de ediciones de noviembre. Círculos rojos expansivos contra escudos azules cuadrangulares. Cada vez que el usuario baja, un `git revert` devuelve la pantalla a la normalidad, hasta la explosión final del `restore --force`.
 
 ### 3. El Outro: El Cierre de Sesión
 - Se apagan los colores. La interfaz queda en negro casi total.

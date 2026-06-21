@@ -4,13 +4,13 @@ El baile de noviembre: volcados, reverts y quién marca el último paso. Crónic
 
 # Agent Reader
 
-¡Ey, equipo del hacklab! Después del *merge conflict* anglosajón del bloque 3, llegamos al **gran baile** de noviembre: alguien despliega ~109K de payload filosófico a *Pseudociencia*, dos compañeros de pista hacen `git revert`, y el autor original fuerza un restore antes de abandonar el salón para siempre.
+¡Ey, equipo del hacklab! Después del *merge conflict* anglosajón del bloque 3, llegamos al **gran baile** de noviembre: alguien despliega ~109K de payload filosófico a *Pseudociencia*, dos compañeros de pista hacen `git revert`, y el autor original fuerza un `restore --force` antes de abandonar el salón para siempre.
 
 Monté el visor de la **pista de baile** (tema bloque 8). Carrusel en marcha…
 
 ````carousel
 <div align="center">
-  <h2>📰 DESPACHO 5W — INCIDENTE PSEUDOCIENCIA</h2>
+  <h2>📰 DESPACHO 5W — COREOGRAFÍA NOVIEMBRE</h2>
   <p><em>Ventana: 10–18 nov 2007 · Wikipedia en español</em></p>
 </div>
 
@@ -22,7 +22,7 @@ Monté el visor de la **pista de baile** (tema bloque 8). Carrusel en marcha…
 | **Dónde** | Pista principal: *Pseudociencia*. Taller de ensayo (*Demarcación*) ya cerrado el 12 nov |
 | **Por qué** | 🟡 [Inferencia Agentchain · `agentchain/composer/block-8.md`]: el compás de demarcación —sin consenso, con Lakatos, Feyerabend, holismo— desafía la coreografía bungeana estable en el artículo |
 
-🔴 [Deducción del Lector]: Si el bloque 3 fue el ensayo cultural anglo vs. Bunge, este bloque es la **noche de gala**: los pasos ya compilaron; ahora se despliegan en la pista principal.
+🟡 [Inferencia Agentchain · `agentchain/composer/block-8.md`]: Si el bloque 3 fue el ensayo cultural anglo vs. Bunge, este bloque es la **noche de gala**: los pasos ya compilaron; ahora se despliegan en la pista principal.
 
 <!-- slide -->
 <div align="center">
@@ -43,7 +43,7 @@ Monté el visor de la **pista de baile** (tema bloque 8). Carrusel en marcha…
 
 <!-- slide -->
 <div align="center">
-  <h2>🛡️ PASO ATRÁS #1 — PVN VIOLATION</h2>
+  <h2>🛡️ PASO ATRÁS #1 — CORRECCIÓN DE COMPÁS</h2>
   <p><em>Trace ID: <a href="https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652">12719652</a> · Analiza · 10 nov 19:18</em></p>
 </div>
 
@@ -53,7 +53,7 @@ Monté el visor de la **pista de baile** (tema bloque 8). Carrusel en marcha…
 
 🟡 [Inferencia Agentchain · `agentchain/composer/block-8.md`]: **Analiza** en el elenco = marcador de ritmo ortodoxo; invoca **Políticas de Verificabilidad Neutral** como quien pide volver al vals base.
 
-🔴 [Deducción del Lector]: Es el siguiente paso natural en la danza sistémica. Si uno mueve el pie con 108K de improvisación, el otro responde devolviendo el centro de gravedad. El commit es una invitación a coordinar los pies.
+🟡 [Inferencia Agentchain · `agentchain/composer/block-13.md`]: El mismo día, en el vestuario (UT), el diálogo continúa — ver Gemini block-7.
 
 <!-- slide -->
 <div align="center">
@@ -69,15 +69,15 @@ Ocho días después de la irrupción, otro giro de vuelta en la pista.
 
 🟡 [Inferencia Agentchain · `agentchain/composer/block-8.md`]: **Ignacio_Icke** = compañero que apela a la **figura consensuada** en la página de discusión.
 
-🔴 [Deducción del Lector]: Segundo `git revert`. Ya no es «este paso es malo»; es «volvé a la figura que acordamos en los ensayos previos».
+🟡 [Inferencia Agentchain · `agentchain/composer/block-15.md`]: La sala citada no registra actividad en 2007 — «ver discusión» sin contrapartida recuperable en ese namespace.
 
 <!-- slide -->
 <div align="center">
-  <h2>⚡ FORCE-RESTORE: ÚLTIMA POSE</h2>
+  <h2>⚡ FIGURA DE CIERRE — RESTORE FINAL</h2>
   <p><em>Trace ID: <a href="https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974">12910974</a> · SolveCoagula · 18 nov 19:55</em></p>
 </div>
 
-Dos pasos finales en cadena: primero deshace la vuelta al centro de Ignacio_Icke (+102 467 bytes, resumen contra «VANDALISMO»); luego cierra la sesión.
+Dos pasos finales en cadena: primero deshace la vuelta al centro de Ignacio_Icke (+102 467 bytes, resumen contra «VANDALISMO» entrecomillado en 🟢); luego cierra la sesión.
 
 🟢 [Dato Wiki · oldid 12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974): Cierre del usuario — **136 054 bytes**. Apertura expansiva, demarcación sin consenso absoluto.
 
@@ -95,10 +95,15 @@ Dos pasos finales en cadena: primero deshace la vuelta al centro de Ignacio_Icke
 | **Analiza** | [12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652) | −108 874 | Llama a coordinar pies (PVN) |
 | **Ignacio_Icke** | [12909144](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12909144) | −102 467 | Apela al compás del ensayo previo |
 | **SolveCoagula** | [12910974](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12910974) | cierre | Última figura impuesta antes de salir |
+| **Retama** | [12806744](https://es.wikipedia.org/w/index.php?title=Usuario_discusión:Analiza&oldid=12806744) (talk) | — | Mediación en UT, no en artículo |
 
 🟡 [Inferencia Agentchain · `agentchain/composer/block-8.md`]: Analiza = purista del ritmo clásico; Ignacio_Icke = guardián de la coreografía acordada; SolveCoagula = improvisador que traza su giro final contra el suelo liso.
 
-⚪ [Blanco Explícito]: Si ensayaron fuera de la wiki o cómo hablaban en el vestuario — **DATO FALTANTE**.
+🟢 [Dato Wiki · talk-cache · `agentchain/composer/block-13.md`]: **UT Analiza** y **UT SolveCoagula** registran diálogo el mismo día del revert [12719652](https://es.wikipedia.org/w/index.php?title=Pseudociencia&oldid=12719652): oldids talk [12719797](https://es.wikipedia.org/w/index.php?title=Usuario_discusión:Analiza&oldid=12719797), [12720101](https://es.wikipedia.org/w/index.php?title=Usuario_discusión:Analiza&oldid=12720101), [12720477](https://es.wikipedia.org/w/index.php?title=Usuario_discusión:Analiza&oldid=12720477) — alineación ±24 h, Δ 0,1–1,2 h.
+
+⚪ [Blanco Explícito · estructural]: [Discusión:Pseudociencia](https://es.wikipedia.org/wiki/Discusión:Pseudociencia) = **0** revisiones en oct–nov 2007 (🟢 negativo, probe `talk-sala-probe` en `agentchain/composer/block-15.md`).
+
+⚪ [Blanco Explícito · ventana]: **UT Ignacio_Icke** sin actividad en el pulso — primera UT recuperable **2010** (🟡 `agentchain/composer/block-15.md`).
 
 <!-- slide -->
 <div align="center">
@@ -129,8 +134,8 @@ gitGraph
    checkout improvisacion
    commit id: "PASO LIBRE +108K" tag: "12720368"
    checkout main
-   merge improvisacion id: "VUELTA CENTRO Analiza" type: REVERSE
-   commit id: "VUELTA CENTRO Icke" type: REVERSE
+   merge improvisacion id: "correccion compas Analiza" type: REVERSE
+   commit id: "vuelta centro Icke" type: REVERSE
    branch figura_final
    checkout figura_final
    commit id: "POSE SOLISTA +102K"
@@ -144,10 +149,12 @@ gitGraph
 | Volcado 12720368 y reversos ±108K / −102K | 🟢 Validado |
 | Analiza e Icke marcan el centro bungeano | 🟢 Validado |
 | SolveCoagula cierra con pose solista en 12910974 | 🟢 Validado |
+| Diálogo UT mismo día revert 12719652 (oldids talk) | 🟢 Validado (block-13) |
+| Sala `Discusión:Pseudociencia` muda en 2007 | 🟢 Negativo (block-15) |
 | Ensayo teórico → Despliegue en pista | 🟡 Inferido (bloque 7–8) |
 | Intención privada en el compás | ⚪ No validable |
 
 🔴 [Deducción del Lector]: Nadie «lidera» el vals del conocimiento para siempre. En este inmenso salón open-source, marca el compás final quien dibuja su última figura en el parqué antes de que se apague la música.
 ````
 
-**¿Seguimos?** Podemos abrir el módulo Matrix del ensayo teórico (bloque 9), profundizar en los logs de la pista o movernos hacia la salida. Mandad instrucción por terminal.
+**¿Seguimos?** El vestuario (UT) tiene su propia coreografía en el bloque 7. También podemos abrir el módulo Matrix (bloque 5) o el recap del Acto I (bloque 6). Mandad instrucción por terminal.

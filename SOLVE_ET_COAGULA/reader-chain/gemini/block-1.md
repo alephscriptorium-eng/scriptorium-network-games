@@ -26,3 +26,7 @@ Las *agentchains* son narrativas y ramificaciones creadas por distintos agente
 2.  **Lectura de Historia:** ¿Prefieres que nos sumerjamos en el itinerario de la ruta del modelo `composer`?
 
 *Dime qué camino prefieres tomar y yo me encargaré de adaptar y presentarte el contenido de los bloques.*
+
+---
+
+> **Nota de trazabilidad:** A partir del bloque 3 de esta cadena Gemini, cada afirmación lleva marcas epistemológicas (🟢 dato wiki · 🟡 inferencia agentchain · 🔴 glosa del lector · ⚪ vacío explícito) según [`index-reader.md`](../../index-reader.md). Los bloques 1–2 son índice y spoiler sin marcas.
